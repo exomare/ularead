@@ -139,7 +139,8 @@ var FormText = {
     let jt = UaJt();
     jt.append(h_menu_text + "<div id='text_rows_id'></div>");
     const html = jt.html();
-    $("#" + this.id).html(html);
+    //AAA $("#" + this.id).html(html);
+    document.getElementById(this.id).innerHTML=html;
     this.bind_menu();
     this.rows_text2html();
   },
@@ -256,7 +257,7 @@ var FormText = {
       return false;
     }
     // this.form_lst2html();
-    FormLpmx.form_lst2html();
+    FormLpmx.form_lst2html(); //AAA forse inutile
     FormText.data2html();
     return true;
   },

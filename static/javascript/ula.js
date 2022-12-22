@@ -106,7 +106,7 @@ var Ula = {
 
     await FormText.open();
     cmd_wait_stop();
-    relocate();
+    // relocate();
     FormLpmx.scroll_top();
   },
   show_lpmx: async function () {
