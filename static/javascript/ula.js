@@ -96,11 +96,14 @@ var Ula = {
       if (!ok)
         alert(text_name + "  Not Found.");
     }
-    TEXT_ID.style.display = 'none';
+    //AAA TEXT_ID.style.display = 'none';
+    LPMX_ID.style.display = 'none';
     await FormLpmx.open();
-    await PosMsd.open();
-    await Phon.open();
-    await Funct.open();
+    //AAA
+    // await PosMsd.open();
+    // await Phon.open();
+    // await Funct.open();
+
     await FormText.open();
     cmd_wait_stop();
     relocate();

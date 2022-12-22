@@ -3,11 +3,13 @@
 const h_menu_text = `
 <div id="text_menu_id" class="menu_bar" >
   <ul>
+  <!--
     <li class="v"> 
       <a class="tipb" cmd="show_lpmx" href="#">Form 
           <span class="tiptextb">Visualizza Lista Form</span>
       </a> 
    </li>  
+   -->
    <li class="v"> 
      <a class="tipb" cmd="toggle_row" href="#">Toggle Row
        <span class="tiptextb">Apre/Chiude la finestra della riga</span>
@@ -15,7 +17,7 @@ const h_menu_text = `
    </li>
       <li class="v"> 
       <a class="tipb" cmd="fillter_rows_text" href="#">Find
-        <span class="tiptextb">Seleziona righe  </span>
+        <span class="tiptextb">Seleziona righe </span>
       </a> 
     </li>
     <li class="v"> 
@@ -23,20 +25,13 @@ const h_menu_text = `
         <span class="tiptextb">Visualizza tutto il Testo </span>
       </a> 
     </li>
-    <li class="v">   
-      <a class=" href="#">Utils</a>
-      <ul class="v">
-        <li class="h">
-          <a class="tipr" cmd="cmd_log" href="#">Log
-            <span class="tiptextr">Relocate all Windows</span>
-          </a>
-        </li>
-        <li class="h">
-          <a class="cmd tipr" cmd="resetxy" href="#">Relocate
-          </a>
-        </li>
-    </ul>
-   </li>
+
+    <li class="v">
+    <a class="tipb title" cmd="select_text" href="#">Select Text
+      <span class="tiptextb">Load selected Text</span>
+    </a>
+  </li>
+
    <li class="v"> <a cmd="help" href="#">Help</a> </li>
    <li class="v"> <a cmd="close" href="#">close</a> </li>
   </ul>
@@ -119,9 +114,16 @@ var FormText = {
       case "help":
         Help.toggle("help2.html");
         break;
+
       case "resetxy":
         FormTextRow.resetXY();
         break;
+
+      //AAA
+      case "select_text":
+        this.select_text();
+        break;
+
       case "cmd_log":
         cmd_log_toggle();
         break;
@@ -141,7 +143,7 @@ var FormText = {
     this.bind_menu();
     this.rows_text2html();
   },
-  data2html:function(){
+  data2html: function () {
     DbFormLpmx.fill_rows_text();
     this.rows_text2html();
   },
@@ -246,5 +248,89 @@ var FormText = {
   },
   disable_row: function () {
     $("#text_rows_id").off("mouseover");
+  },
+  //AAA
+  load_data: async function () {
+    const ok = await DbFormLpmx.load_data();
+    if (!ok) {
+      return false;
+    }
+    // this.form_lst2html();
+    FormLpmx.form_lst2html();
+    FormText.data2html();
+    return true;
+  },
+  select_text: async function () {
+
+    let call = async (text_name) => {
+      const tname = text_name || null;
+      if (!tname) return;
+      if (!confirm(`Load ${tname} ?`))
+        return;
+      DbFormLpmx.set_text_name(tname);
+      let ok = await this.load_data();
+      if (!ok) {
+        alert(tname + " Not Found.");
+        return;
+      }
+      document.querySelector("#text_menu_id ul li a.title").innerHTML = tname;
+    };
+
+    let text_lst = await DbFormLpmx.load_text_list();
+    // AAA SelectText.open("lpmx_id", "select_text_id", text_lst, call).at(400, 100).show();
+    SelectTextB.open("text_id", "select_text_id", text_lst, call).at(400, 100).show();
   }
+};
+
+//AAA
+var SelectTextB = {
+  wnd: null,
+  call: null,
+  open: function (p_id, id, rows, call) {
+    this.call = call;
+    this.wnd = UaWindowAdm.get(id);
+    if (!this.wnd)
+      this.wnd = UaWindowAdm.create(id, p_id);
+    this.wnd.setCenterY(200, -1);
+    this.wnd.drag();
+    let jt = UaJt();
+    const h_top = `
+    <div class="cmd">
+      <div class="x" >Close</div>
+    </div>   
+    `;
+    jt.append(h_top);
+    const h_row = `<div class="d" name="{name}">{name}</div> `;
+    for (const row of rows) {
+      const d = {
+        name: row,
+      };
+      jt.append(h_row, d);
+    }
+    let h = jt.html();
+    this.wnd.setHtml(h);
+    this.wnd.addClassStyle("ula_option");
+    let opt = this.wnd.getElement();
+    //bind
+    opt.addEventListener("click", (ev) => {
+      ev.stopImmediatePropagation();
+      const t = ev.target;
+      if (t.classList.contains("d")) {
+        let tname = t.getAttribute("name");
+        this.call(tname);
+        this.wnd.hide();
+      }
+      else if (t.classList.contains("x")) {
+        this.wnd.hide();
+      }
+    });
+    return this;
+  },
+  at: function (x, y, p = - 1) {
+    this.wnd.setXY(x, y, p);
+    return this;
+  },
+  show: function () {
+    this.wnd.show();
+  },
 };
