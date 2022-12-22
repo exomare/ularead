@@ -13,7 +13,8 @@ var log_performance = function (k, msg = '') {
 };
 
 var cmd_close = function () {
-  if (confirm("Chiudi Applicazione ?")) window.close();
+  if (confirm("Chiudi Applicazione ?"))
+    location.replace('ulaend.html');
 };
 
 var cmd_log_toggle = function () {
@@ -78,7 +79,6 @@ let TEXT_ID = null;
 var Ula = {
   open: async function () {
     cmd_wait_start();
-    // localStorage.clear();
 
     LPMX_ID = document.getElementById("lpmx_id");
     TEXT_ID = document.getElementById("text_id");
@@ -92,7 +92,7 @@ var Ula = {
       const name = (lst.length > 0) ? lst[0] : "";
       text_name = name;
     }
-    
+
     DbFormLpmx.set_text_name(text_name);
     let ok = DbFormLpmx.get_store();
     if (!ok) {
@@ -112,6 +112,8 @@ var Ula = {
     cmd_wait_stop();
     // relocate();
     FormLpmx.scroll_top();
+    //AAA
+    document.querySelector("#text_menu_id ul li a.title").innerHTML = text_name;
   },
   show_lpmx: async function () {
     TEXT_ID.style.display = 'none';
