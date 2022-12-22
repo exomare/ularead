@@ -78,9 +78,12 @@ let TEXT_ID = null;
 var Ula = {
   open: async function () {
     cmd_wait_start();
+    // localStorage.clear();
+
     LPMX_ID = document.getElementById("lpmx_id");
     TEXT_ID = document.getElementById("text_id");
     UaLog.setXY(-300, 0).setZ(11).new();
+
     let text_name = DbFormLpmx.get_text_name();
     if (!text_name) {
       // se text_name null prende il primo della lista
@@ -89,6 +92,7 @@ var Ula = {
       const name = (lst.length > 0) ? lst[0] : "";
       text_name = name;
     }
+    
     DbFormLpmx.set_text_name(text_name);
     let ok = DbFormLpmx.get_store();
     if (!ok) {
