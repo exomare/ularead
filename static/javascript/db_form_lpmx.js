@@ -15,9 +15,9 @@ const KEY_DATA_FORM = "ula_form";
 const KEY_DATA_TOKEN = "ula_token";
 // url data
 //AAA modificati url
-const URL_TEXT_LIST = "/data/text_list.txt";
-const DATA_DIR = "/data";
-const URL_CORPUS_OMOGR = "/data_corpus/corpus_omogr.json";
+const URL_TEXT_LIST = "data/text_list.txt";
+const DATA_DIR = "data";
+const URL_CORPUS_OMOGR = "data_corpus/corpus_omogr.json";
 
 
 
