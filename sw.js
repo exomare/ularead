@@ -25,8 +25,26 @@ const config = {
     staticCacheItems: [
         "/ularead/index.html",
         "/ularead/css/ula.css",
-        "/ularead/js/ula.min.js",
+
         "/ularead/app.js",
+        "/ularead/js/ula.min.js",
+        // "/ularead/javascript/jquery-3.6.0.slim.js",
+        // "/ularead/javascript/uadrag.js",
+        // "/ularead/javascript/uajt.js",
+        // "/ularead/javascript/uawindow.js",
+        // "/ularead/javascript/ualog.js",
+        // "/ularead/javascript/ula.js",
+        // "/ularead/javascript/ula_utils.js",
+        // "/ularead/javascript/form_text.js",
+        // "/ularead/javascript/form_text_row.js",
+        // "/ularead/javascript/form_lpmx.js",
+        // "/ularead/javascript/db_form_lpmx.js",
+        // "/ularead/javascript/pos_msd.js",
+        // "/ularead/javascript/phon.js",
+        // "/ularead/javascript/funct.js",
+        // "/ularead/javascript/form_context.js",
+         
+    
         "/ularead/icons/maskable_icon_x512.png",
         "/ularead/icons/maskable_icon_x384.png",
         "/ularead/icons/maskable_icon_x192.png",
@@ -42,6 +60,14 @@ const config = {
         "/ularead/data/text_list.txt",
         "/ularead/data/tr_gre_000.form.csv",
         "/ularead/data/tr_gre_000.token.csv",
+        "/ularead/data/tr_gre_001.form.csv",
+        "/ularead/data/tr_gre_001.token.csv",
+        "/ularead/data/tr_gre_002.form.csv",
+        "/ularead/data/tr_gre_002.token.csv",
+        "/ularead/data/tr_gre_003.form.csv",
+        "/ularead/data/tr_gre_003.token.csv",
+        "/ularead/data/tr_gre_004.form.csv",
+        "/ularead/data/tr_gre_004.token.csv",
 
         "/ularead/favicon.ico"
     ]

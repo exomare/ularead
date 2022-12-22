@@ -226,15 +226,20 @@ var DbFormLpmx = {
     this.set_store();
     return true;
   },
+  //FIXME gestire  errori  fetch
   load_csv: async function (file_name) {
     const url = `${DATA_DIR}/${file_name}`;
     let csv_data = "";
+
     const resp = await fetch(url, {
       method: 'GET',
       headers: { "Content-Type": "text/plain;charset=UTF-8" },
       cache: 'default'
+    }).catch((err) => {
+      return null;
     });
-    if (resp.ok)
+
+    if (!!resp && resp.ok)
       csv_data = await resp.text();
 
     if (!csv_data || csv_data.trim().length == 0) {
