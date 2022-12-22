@@ -1,0 +1,388 @@
+{
+  "NOUN": {
+    "pos_name": "noun",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "Nom",
+          "Acc"
+        ]
+      }
+    ]
+  },
+  "PROPN": {
+    "pos_name": "properNoun",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "Nom",
+          "Acc"
+        ]
+      }
+    ]
+  },
+  "ADJ": {
+    "pos_name": "adjective",
+    "msd_list": [
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "Nom",
+          "Acc"
+        ]
+      },
+      {
+        "msd_name": "degree",
+        "attrs": [
+          "Pos",
+          "Cmp",
+          "Sup",
+          "Abs"
+        ]
+      }
+    ]
+  },
+  "DET": {
+    "pos_name": "determiner",
+    "msd_list": [
+      {
+        "msd_name": "deterType",
+        "attrs": [
+          "ArtDef",
+          "ArtIndef",
+          "Poss",
+          "Rel",
+          "Dem",
+          "Neg",
+          "Ind",
+          "Int",
+          "Exc"
+        ]
+      },
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "Nom",
+          "Acc"
+        ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "PRON": {
+    "pos_name": "pronoun",
+    "msd_list": [
+      {
+        "msd_name": "pronType",
+        "attrs": [
+          "Prs",
+          "Poss",
+          "Rel",
+          "Dem",
+          "Neg",
+          "Ind",
+          "Int"
+        ]
+      },
+      {
+        "msd_name": "person",
+        "attrs": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "case",
+        "attrs": [
+          "Nom",
+          "Acc"
+        ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "VERB": {
+    "pos_name": "verb",
+    "msd_list": [
+      {
+        "msd_name": "verbForm",
+        "attrs": [
+          "Fin",
+          "Ind"
+        ]
+      },
+      {
+        "msd_name": "mood",
+        "attrs": [
+          "Inf",
+          "Part",
+          "Ger",
+          "Ind",
+          "Imp",
+          "Cnd",
+          "Sub"
+        ]
+      },
+      {
+        "msd_name": "tense",
+        "attrs": [
+          "Past",
+          "Pres",
+          "Fut",
+          "Imp"
+        ]
+      },
+      {
+        "msd_name": "voice",
+        "attrs": [
+          "Act",
+          "Pass",
+          "Rfl"
+        ]
+      },
+      {
+        "msd_name": "property",
+        "attrs": [
+          "Intr",
+          "Trans"
+        ]
+      },
+      {
+        "msd_name": "person",
+        "attrs": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "msd_name": "number",
+        "attrs": [
+          "Sing",
+          "Plur"
+        ]
+      },
+      {
+        "msd_name": "gender",
+        "attrs": [
+          "Masc",
+          "Fem",
+          "Neut"
+        ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "ADP": {
+    "pos_name": "adposition",
+    "msd_list": [
+      {
+        "msd_name": "adpType",
+        "attrs": [
+          "PrepS",
+          "PrepArt"
+        ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "ADV": {
+    "pos_name": "adverb",
+    "msd_list": [
+      {
+        "msd_name": "advType",
+        "attrs": [
+          "Man",
+          "Loc",
+          "Tim",
+          "Deg",
+          "Freq"
+        ]
+      },
+      {
+        "msd_name": "advType2",
+        "attrs": [
+          "Dem",
+          "Ind",
+          "Neg",
+          "Int",
+          "Tot"
+        ]
+      },
+      {
+        "msd_name": "degree",
+        "attrs": [
+          "Pos",
+          "Cmp",
+          "Sup",
+          "Abs"
+        ]
+      },
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "CCONJ": {
+    "pos_name": "coordinating conjunction",
+    "msd_list": [
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "SCONJ": {
+    "pos_name": "subordinating conjunction",
+    "msd_list": [
+      {
+        "msd_name": "MWEs",
+        "attrs": [
+          "MWEs"
+        ]
+      }
+    ]
+  },
+  "NUM": {
+    "pos_name": "numeral",
+    "msd_list": [
+      {
+        "msd_name": "numType",
+        "attrs": [
+          "Card",
+          "Ord"
+        ]
+      }
+    ]
+  },
+  "PART": {
+    "pos_name": "particle",
+    "msd_list": [
+      {
+        "msd_name": "partType",
+        "attrs": [
+          "Pos",
+          "Neg",
+          "Int",
+          "Exc",
+          "Verb"
+        ]
+      }
+    ]
+  },
+  "INTJ": {
+    "pos_name": "interjection",
+    "msd_list": []
+  },
+  "X": {
+    "pos_name": "other",
+    "msd_list": []
+  },
+  "-": {
+    "pos_name": "del",
+    "msd_list": []
+  }
+}

@@ -1,0 +1,20 @@
+#name|sign|msd_id_list
+noun|NOUN|1,2,3
+properNoun|PROPN|1,2,3
+adjective|ADJ|1,2,3,4
+determiner|DET|16,1,2,3,18
+pronoun|PRON|15,10,1,2,3,18
+verb|VERB|6,7,8,9,11,10,2,1,18
+adposition|ADP|5,18
+adverb|ADV|13,19,4,18
+coordinating conjunction|CCONJ|18
+subordinating conjunction|SCONJ|18
+numeral|NUM|17
+particle|PART|14
+interjection|INTJ
+other|X
+del|-
+
+
+
+
