@@ -45,17 +45,13 @@ const config = {
         // "/ularead/javascript/form_context.js",
          
     
-        "/ularead/icons/maskable_icon_x512.png",
-        "/ularead/icons/maskable_icon_x384.png",
-        "/ularead/icons/maskable_icon_x192.png",
-        "/ularead/icons/maskable_icon_x144.png",
-        "/ularead/icons/icon07_x512.png",
-        "/ularead/icons/icon07_x384.png",
-        "/ularead/icons/icon07_x192.png",
-        "/ularead/icons/icon07_x144.png",
-        "/ularead/imgs/disegno800x590.png",
+        "/ularead/icons/maskable_cicerchia01_x512.png",
+        "/ularead/icons/maskable_cicerchia01_x384.png",
+        "/ularead/icons/maskable_cicerchia01_x192.png",
+        "/ularead/icons/caprifoglio04_x512.png",
+        "/ularead/icons/caprifoglio04_x384.png",
+        "/ularead/icons/caprifoglio04_x192.png",
         "/ularead/imgs/giardino800x480.jpg",
-        "/ularead/imgs/molo1280x680.jpg",
 
         "/ularead/data/text_list.txt",
         "/ularead/data/tr_gre_000.form.csv",

@@ -13,7 +13,7 @@ const ualog = function (...args) {
 
 const app_log = function (txt) {
   // msg_prn(item1, txt);
-  UaLog.log_show(txt);
+  // UaLog.log_show(txt);
 };
 
 const app_info = function (sw_name, release, state) {
@@ -25,7 +25,7 @@ const app_info = function (sw_name, release, state) {
   </span>
   `;
   // msg_prn(item0, txt);
-  UaLog.log_show(txt);
+  // UaLog.log_show(txt);
 };
 
 const error = (...args) => {
@@ -163,7 +163,7 @@ const testMsgLog = function () {
     navigator.serviceWorker.onmessage = receiveMessage;
     const msg = event.data;
     const data = msg.data;
-    UaLog.log_show(data);
+    // UaLog.log_show(data);
   };
   const msg = {
     name: "testMsg",
