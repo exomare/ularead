@@ -13,8 +13,11 @@ var log_performance = function (k, msg = '') {
 };
 
 var cmd_close = function () {
-  if (confirm("Chiudi Applicazione ?"))
-    location.replace('ulaend.html');
+  //AAA if (confirm("Chiudi Applicazione ?"))
+  //   location.replace('ulaend.html');
+  // close_ularead();
+  window.opener = self;
+  window.close();
 };
 
 var cmd_log_toggle = function () {
