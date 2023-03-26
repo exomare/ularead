@@ -1,8 +1,8 @@
 -la|-la||||||
 -le|-le||||||
 a|a|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
-a|a1|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,3,Sing,MWEs
-a|a2|avoir|HABERE||VERB||Fin,Ind,Pres,Intr,3,Sing
+a|a1|avoir|HABERE||VERB||Fin,Ind,Pres,Intr,3,Sing
+a|a2|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,3,Sing,MWEs
 abandonance|abandonance|abondance|ABUNDANTIA||NOUN||Fem,Sing
 abandonés|abandonés|abandoner|*BAN||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
 achaie|achaie|Achaye|||PROPN||Fem,Sing
@@ -18,10 +18,9 @@ adonc|adonc|adonc|DUNC||ADV||
 afer|afer|afaire|FACERE||NOUN||Masc,Sing,Nom
 afer|afer1|afaire|FACERE||NOUN||Masc,Sing,Acc
 age|age|ëage|AETAS||NOUN||Fem,Sing
-ahornés|ahornés1|aorner2|ADORNARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
-ai|ai|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,1,Sing,MWEs
-ai|ai1|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
-ai|ai2|X|X||X||
+ahornés|ahornés|aorner2|ADORNARE||VERB|Adj|Ind,Part,Past,Sing,Masc
+ai|ai|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
+ai|ai1|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,1,Sing,MWEs
 aidier|aidier|aidier|ADJUTARE||VERB||Ind,Inf,Pres,Act,Trans
 aient|aient|avoir|HABERE||VERB||Fin,Sub,Pres,Act,Trans,3,Plur
 aille|aille|aler (GDC)|AMBULARE||VERB||Fin,Sub,Pres,Intr,3,Sing
@@ -30,8 +29,7 @@ aim|aim|amer1|AMARE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 aime|aime|amer1|AMARE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 ains|ains|ainz|ANTE||ADV||
 air|air|air1|AER||NOUN||Fem,Sing
-ais|ais|aise|ADJACENS||NOUN||Masc,Sing,Acc
-aise|aise|aise|ADJACENS||NOUN|Adv|Masc,Sing,Acc
+ais|ais2|aise|ADJACENS||NOUN||Masc,Sing,Acc
 aisieement|aisieement|aisement|ADJACENS||ADV||Man
 ait|ait|avoir|HABERE||VERB||Fin,Sub,Pres,Act,Trans,3,Sing
 ait|ait1|avoir|HABERE||VERB|auxTens|Fin,Sub,Pres,3,Sing,MWEs
@@ -39,57 +37,57 @@ ajousta|ajousta|ajoster|*JUXTARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 ajoustrerent|ajoustrerent|ajoster|*JUXTARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 ala|ala|aler (GDC)|AMBULARE||VERB||Fin,Ind,Past,Intr,3,Sing
 ala|ala1|aler (GDC)|AMBULARE||VERB||Fin,Ind,Past,Rfl,3,Sing
-ala|ala2|aler (GDC)|AMBULARE||VERB|auxMod|Fin,Ind,Past,Intr,3,Sing
+ala|ala2|aler (GDC)|AMBULARE||VERB|auxMod|Fin,Ind,Past,3,Sing
 alai|alai|aler (GDC)|AMBULARE||VERB||Fin,Ind,Past,Intr,1,Sing
 alast|alast|aler (GDC)|AMBULARE||VERB||Fin,Sub,Imp,Intr,3,Sing
 aleigre|aleigre|haliegre|ALACER||ADJ||Masc,Sing,Nom
-aleigre|aleigre1|haliegre|ALACER||ADJ||Masc,Plur,Nom
+aleigre|aleigre2|haliegre|ALACER||ADJ||Masc,Plur,Nom
 aler|aler|aler (GDC)|AMBULARE||VERB||Ind,Inf,Pres,Intr
+aler|aler1|aler (GDC)|AMBULARE||VERB|auxMod|Ind,Inf,Pres
 alerent|alerent|aler (GDC)|AMBULARE||VERB||Fin,Ind,Past,Intr,3,Plur
 alerent|alerent1|aler (GDC)|AMBULARE||VERB||Fin,Ind,Past,Rfl,3,Plur
 aloient|aloient|aler (GDC)|AMBULARE||VERB||Fin,Ind,Imp,Intr,3,Plur
-alés|alés|aler (GDC)|AMBULARE||VERB||Fin,Imp,Pres,Intr,2,Plur
-alés|alés3|aler (GDC)|AMBULARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+alés|alés3|aler (GDC)|AMBULARE||VERB||Fin,Imp,Pres,Intr,2,Plur
 alés|alés4|aler (GDC)|AMBULARE||VERB||Fin,Imp,Pres,Rfl,2,Plur
+alés|alés5|aler (GDC)|AMBULARE||VERB|auxMod|Fin,Imp,Pres,2,Plur
 amena|amena|amener|MINARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 amerai|amerai|amer1|AMARE||VERB||Fin,Ind,Fut,Act,Trans,1,Sing
-amis|amis2|ami|AMICUS||NOUN||Masc,Plur,Acc
+amis|amis3|ami|AMICUS||NOUN||Masc,Plur,Acc
 amoine|amoine|amener|MINARE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
 amoit|amoit|amer1|AMARE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
 amont|amont|amont|MONS||ADV||Loc
-amor|amor2|amor|AMOR||NOUN||Masc,Sing,Acc
+amor|amor|amor|AMOR||NOUN||Fem,Sing
 ansesors|ansesors1|ancessor|ANTECESSOR||NOUN||Masc,Plur,Acc
 anthenor|anthenor|Anténor|||PROPN||Masc,Sing,Nom
-anz|anz|an|ANNUS||NOUN||Masc,Plur,Acc
-aparoil|aparoil1|apareil|*APPARICULARE||NOUN||Masc,Plur,Acc
+anz|anz1|an|ANNUS||NOUN||Masc,Plur,Acc
+aparoil|aparoil3|apareil|*APPARICULARE||NOUN||Masc,Plur,Acc
 aparoilla|aparoilla|apareillier1|*APPARICULARE||VERB||Fin,Ind,Past,Rfl,3,Sing
-aparoillee|aparoillee2|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+aparoillee|aparoillee4|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 aparoillees|aparoillees|apareillier1|*APPARICULARE||VERB|Adj|Ind,Part,Past,Plur,Fem
-aparoilliee|aparoilliee|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
+aparoilliee|aparoilliee1|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 aparoillier|aparoillier|apareillier1|*APPARICULARE||VERB||Ind,Inf,Pres,Act,Trans
-aparoillés|aparoillés|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
-aparoillés|aparoillés3|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
+aparoillés|aparoillés4|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+aparoillés|aparoillés5|apareillier1|*APPARICULARE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
 apella|apella|apeler|APPELLARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 apellee|apellee|apeler|APPELLARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 apellés|apellés|apeler|APELLARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
 apendant|apendant|apendre|APPENDERE||VERB||Ind,Ger,Intr
-apollus|apollus|Pollux|||PROPN||Masc,Sing,Acc
+apollus|apollus1|Pollux|||PROPN||Masc,Sing,Acc
 apolus|apolus|Pollux|||PROPN||Masc,Sing,Nom
-aportés|aportés2|aporter|APPORTARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+aportés|aportés1|aporter|APPORTARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 appollus|appollus|Pollux|||PROPN||Masc,Sing,Acc
 aprestee|aprestee|aprester|PRAESTO||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
-aprés|aprés|après|AD PRESSUM||ADP||
 aprés|aprés1|après|AD PRESSUM||ADV||Tim
-aprés_ce_qe|aprés_ce_qe|après|AD PRESSUM||ADV|SConj |
+aprés_ce_qe|aprés_ce_qe|après|AD PRESSUM||ADV|SConj |Tim,MWEs
 arbre|arbre|arbre|ARBOR||NOUN||Masc,Sing,Acc
 ardiement|ardiement|hardiement|*HARDJAN||ADV||Man
 ardoir|ardoir|ardre|ARDERE||VERB||Ind,Inf,Pres,Act,Trans
 arieres|arieres|ariere|AD RETRO||ADV||Loc
 ariva|ariva|ariver|*ARRIPARE||VERB||Fin,Ind,Past,Intr,3,Sing
 ariverent|ariverent|ariver|*ARRIPARE||VERB||Fin,Ind,Past,Intr,3,Plur
-arivés|arivés|ariver|*ARRIPARE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
+arivés|arivés3|ariver|*ARRIPARE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
 armes|armes|arme|ARMA||NOUN||Fem,Plur
-aroie|aroie1|avoir|HABERE||VERB||Fin,Cnd,Pres,Act,Trans,1,Sing
+aroie|aroie|avoir|HABERE||VERB||Fin,Ind,Fut,Act,Trans,1,Sing
 arrieres|arrieres|ariere|*AD RETRO||ADV||Loc
 ars|ars|art|ARS||NOUN||Fem,Plur
 arse|arse|ardre|ARDERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
@@ -99,7 +97,7 @@ asaudrons|asaudrons|assalir|*ASSALIRE||VERB||Fin,Ind,Fut,Act,Trans,1,Plur
 ase|ase||||||
 asenbla|asenbla|assembler|ASSIMILARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 asenblee|asenblee|assemblee|ASSIMILARE||NOUN||Fem,Sing
-asenblés|asenblés1|assembler|ASSIMILARE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
+asenblés|asenblés|assembler|ASSIMILARE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
 aseoir|aseoir|asseoir (TLF)|SEDERE||VERB||Ind,Inf,Pres,Intr
 asis|asis|asseoir (TLF)|SEDERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 asist|asist1|asseoir (TLF)|SEDERE||VERB||Fin,Ind,Past,Rfl,3,Sing
@@ -110,27 +108,27 @@ atendés|atendés|atendre|ATTENDERE||VERB||Fin,Imp,Pres,Intr,2,Plur
 athenor|athenor|Anténor|||PROPN||Masc,Sing,Nom
 athenor|athenor1|Anténor|||PROPN||Masc,Sing,Acc
 atornee|atornee|atorner|TORNARE||VERB||Ind,Part,Past,Sing,Fem
-atornee|atornee2|atorner|TORNARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+atornee|atornee1|atorner|TORNARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 au|au|a3|AD||ADP||PrepArt
 aus|aus1|haut|ALTUS||ADJ||Masc,Plur,Acc
 ausi|ausi|aussi|SIC||ADV||
 ausi_com|ausi_com|aussi|SIC||ADV|Adv|MWEs
-aut|aut2|haut|ALTUS||ADJ||Masc,Sing,Nom
+aut|aut|haut|ALTUS||ADJ||Masc,Sing,Nom
 aute|aute|haut|ALTUS||ADJ||Fem,Sing
 aute|aute1|haut|haut||ADJ||Masc,Sing,Nom
 autement|autement|hautement|ALTUS||ADV||
 autesse|autesse|hautece|ALTITIA||NOUN||Fem,Sing
-autre|autre1|autre|ALTER||DET||Ind,Fem,Sing
-autre|autre3|autre|ALTER||PRON||Ind,Neut,Sing,Acc
-autre|autre5|autre|ALTER||PRON||Ind,Fem,Sing
-autre|autre6|autre|ALTER||DET||Ind,Masc,Sing,Acc
+autre|autre1|autre|ALTER||DET||Ind,Masc,Sing,Acc
+autre|autre10|autre|ALTER||PRON||Ind,Neut,Sing,Acc
+autre|autre4|autre|ALTER||DET||Ind,Fem,Sing
+autre|autre8|autre|ALTER||PRON||Ind,Fem,Sing
+autre_tel|autre_tel|autretel|TALIS||DET||Ind,Masc,Sing,Acc
 autrement|autrement|autrement|ALTER||ADV||
-autres|autres|autre|ALTER||PRON||Ind,Masc,Plur,Acc
-autres|autres1|autre|ALTER||DET||Ind,Masc,Plur,Nom
-autres|autres2|autre|ALTER||DET||Ind,Masc,Plur,Acc
+autres|autres|autre|ALTER||DET||Ind,Masc,Plur,Nom
+autres|autres1|autre|ALTER||DET||Ind,Masc,Plur,Acc
+autres|autres3|autre|ALTER||DET||Ind,Masc,Sing,Acc
 autres|autres4|autre|ALTER||PRON||Ind,Masc,Plur,Nom
-autres|autres5|autre|ALTER||DET||Ind,Masc,Sing,Acc
-autretel|autretel|autretel|TALIS||ADV|Adv|MWEs
+autres|autres5|autre|ALTER||PRON||Ind,Masc,Plur,Acc
 avant|avant|avant|ABANTE||ADV||
 avant_qe|avant_qe|avant|ABANTE||ADV|SConj |
 avec|avec|avuec|AB HOC||ADP||
@@ -146,42 +144,41 @@ avoient|avoient1|avoir|HABERE||VERB|auxTens|Fin,Ind,Imp,3,Plur,MWEs
 avoir|avoir|avoir|HABERE||VERB||Ind,Inf,Pres,Act,Trans
 avoir|avoir1|avoir|HABERE||VERB|Noun|Ind,Inf,Pres
 avoit|avoit|avoir|HABERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
-avoit|avoit1|avoir|HABERE||VERB|auxTens|Fin,Ind,Imp,3,Sing,MWEs
-avoit|avoit2|avoir|HABERE||VERB||Fin,Ind,Imp,Intr,3,Sing
+avoit|avoit1|avoir|HABERE||VERB||Fin,Ind,Imp,Intr,3,Sing
+avoit|avoit2|avoir|HABERE||VERB|auxTens|Fin,Ind,Imp,3,Sing,MWEs
 avons|avons|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,1,Plur
 avos|avos|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,1,Plur
 avra|avra|avoir|HABERE||VERB||Fin,Ind,Fut,Act,Trans,3,Sing
 avrai|avrai|avoir|HABERE||VERB||Fin,Ind,Fut,Act,Trans,1,Sing
 avroit|avroit|avoir|HABERE||VERB||Fin,Ind,Fut,Act,Trans,3,Sing
 avrons|avrons1|avoir|HABERE||VERB||Fin,Ind,Fut,Act,Trans,1,Plur
-avront|avront1|avoir|HABERE||VERB||Ind,Inf,Fut,Act,Trans,3,Plur
+avront|avront|avoir|HABERE||VERB||Fin,Ind,Fut,Act,Trans,3,Plur
 avés|avés|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,2,Plur,MWEs
 avés|avés1|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,2,Plur
 aïés|aïés|avoir|HABERE||VERB||Fin,Sub,Pres,Act,Trans,2,Plur
-barons|barons|baron|*BARO||NOUN||Masc,Plur,Nom
-barons|barons1|baron|*BARO||NOUN||Masc,Plur,Acc
-barons|barons2|baron|*BARO||NOUN||Masc,Sing,Acc
-barons|barons3|baron|*BARO||NOUN||Masc,Sing,Nom
+barons|barons|baron|*BARO||NOUN||Masc,Sing,Nom
+barons|barons1|baron|*BARO||NOUN||Masc,Sing,Acc
+barons|barons2|baron|*BARO||NOUN||Masc,Plur,Nom
+barons|barons3|baron|*BARO||NOUN||Masc,Plur,Acc
 bastart|bastart|bastart|BASTARDUS||NOUN||Masc,Sing,Nom
 bataille|bataille|bataille|BATTUALIA||NOUN||Fem,Sing
 belle|belle|bel|BELLUS||ADJ||Fem,Sing
 besoigne|besoigne|besoigne|*SUNNI||NOUN||Fem,Sing
 besoigne|besoigne1|besoignier|*SUNNI||VERB||Fin,Ind,Pres,Intr,3,Sing
 biau|biau|bel|BELLUS||ADJ||Masc,Sing,Nom
-biau|biau2|bel|BELLUS||ADJ||Masc,Sing,Acc
-biau|biau3|bel|BELLUS||ADJ||Masc,Plur,Nom
-biaus|biaus1|bel|BELLUS||ADJ||Masc,Plur,Nom
-biauz|biauz|bel|BELLUS||ADJ||Masc,Plur,Nom
-biauz|biauz1|bel|BELLUS||ADJ||Masc,Sing,Acc
-bien|bien|bien2|BENE||ADV||Man
+biau|biau1|bel|BELLUS||ADJ||Masc,Sing,Acc
+biau|biau2|bel|BELLUS||ADJ||Masc,Plur,Nom
+biaus|biaus4|bel|BELLUS||ADJ||Masc,Plur,Nom
+biauz|biauz4|bel|BELLUS||ADJ||Masc,Plur,Nom
+bien|bien4|bien2|BENE||ADV||Man
 biens|biens|bien2|BENE||NOUN||Masc,Plur,Acc
 bise|bise|bise2|*BîSJO||NOUN||Fem,Sing
 blasmer|blasmer|blasmer|BLASPHEMARE||VERB||Ind,Inf,Pres,Act,Trans
 boivre|boivre|boivre|BIBERE||VERB||Ind,Inf,Pres,Act,Trans
-bon|bon|bon|BONUS||ADJ||Masc,Sing,Acc
-bon|bon1|bon|BONUS||ADJ||Neut,Sing,Nom
-bon|bon2|bon|BONUS||ADJ||Masc,Sing,Nom
-bon|bon3|bon|BONUS||ADJ||Masc,Plur,Acc
+bon|bon|bon|BONUS||ADJ||Masc,Sing,Nom
+bon|bon1|bon|BONUS||ADJ||Masc,Sing,Acc
+bon|bon2|bon|BONUS||ADJ||Neut,Sing,Nom
+bon|bon5|bon|BONUS||ADJ||Masc,Plur,Acc
 bone|bone|bon|BONUS||ADJ||Fem,Sing
 bons|bons|bon|BONUS||ADJ||Masc,Plur,Acc
 bons|bons1|bon|BONUS||NOUN||Masc,Sing,Acc
@@ -202,25 +199,26 @@ ce|ce2|se|SI||SCONJ||
 ce_qe|ce_qe|ce1|HOC||PRON|SConj |Dem,Neut,Sing,MWEs
 ce_qu’|ce_qu’|ce1|HOC||PRON|SConj |Dem,Neut,Sing,MWEs
 ce_q’|ce_q’|ce1|HOC||PRON|SConj |Dem,Neut,Sing,MWEs
-cel|cel1|cel|ILLE||DET||Dem,Fem,Plur
+cel|cel|tel|TALIS||DET||Ind,Fem,Sing
 cele|cele|cel|ILLE||DET||Dem,Fem,Sing
 celer|celer|celer|CELARE||VERB||Ind,Inf,Pres,Act,Trans
-celle|celle|cel|ILLE||PRON||Fem,Sing
+celle|celle|cel|ILLE||PRON||Dem,Fem,Sing
 cels|cels|cel|ILLE||PRON||Dem,Masc,Plur,Nom
 cels|cels1|cel|ILLE||PRON||Dem,Masc,Plur,Acc
 cels_qi|cels_qi|cel|ILLE||PRON|Pron|Dem,Masc,Plur,Nom,MWEs
 celui|celui|cel|ILLE||DET||Dem,Masc,Sing,Nom
-celui|celui1|cel|ILLE||DET||Dem,Masc,Sing,Acc
 celui|celui2|cel|ILLE||PRON||Dem,Masc,Sing,Nom
 celui|celui3|cel|ILLE||PRON||Dem,Masc,Sing,Acc
+celui_qe|celui_qe|cil|ILLE||PRON|SConj |Masc,Sing,Nom,Dem
+celui_qi|celui_qi|cil|ILLE||PRON|SConj |Masc,Sing,Nom,Dem,MWEs
 cerf|cerf|cerf|CERVUS||NOUN||Masc,Sing,Acc
+ces|ces1|ce2|ISTE||DET||Dem,Masc,Plur,Acc
 ces|ces2|ce2|ISTE||DET||Dem,Fem,Plur
-ces|ces4|suen|SUUS||DET||Poss,Masc,Plur,Acc
-ceste|ceste1|cest|ISTE||DET||Dem,Fem,Sing
+ces|ces5|suen|SUUS||DET||Poss,Fem,Plur
+ceste|ceste|cest|ISTE||PRON||Dem,Fem,Sing
 ceste|ceste2|cest|ISTE||DET||Dem,Fem,Plur
-ceste|ceste3|cest|ISTE||DET||Dem,Masc,Sing
-cestui|cestui1|cest|ISTE||DET||Dem,Masc,Sing,Acc
 cestui|cestui2|cest|ISTE||DET||Dem,Masc,Sing,Nom
+cestui|cestui3|cest|ISTE||DET||Dem,Masc,Sing,Acc
 chaca|chaca|chacier|*CAPTIARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 chascun|chascun1|chascun|CATA||PRON||Ind,Masc,Sing,Nom
 chaseors|chaseors|chacëor|*CAPTIARE||NOUN||Masc,Plur,Acc
@@ -234,16 +232,15 @@ cherement|cherement|chierement|CARUS||ADV||Man
 chersant|chersant|cerchier|CIRCARE||VERB||Ind,Ger,Pres,Act,Trans
 cherser|cherser|cerchier|CIRCARE||VERB||Ind,Inf,Pres,Act,Trans
 chevalerie|chevalerie|chevalerie|CABALLARIUS||NOUN||Fem,Sing
-chevaliers|chevaliers|chevalier|CABALLARIUS||NOUN||Masc,Plur,Nom
-chevaliers|chevaliers1|chevalier|CABALLARIUS||NOUN||Masc,Plur,Acc
-chevals|chevals1|cheval|CABALLUS||NOUN||Masc,Sing,Acc
-chevetaine|chevetaine1|chevetaigne|CAPITANEUS||NOUN||Masc,Sing,Nom
-chief|chief|chief1|CAPUT||NOUN||Masc,Sing,Acc
+chevaliers|chevaliers2|chevalier|CABALLARIUS||NOUN||Masc,Plur,Nom
+chevaliers|chevaliers3|chevalier|CABALLARIUS||NOUN||Masc,Plur,Acc
+chevals|chevals|cheval|CABALLUS||NOUN||Masc,Plur,Acc
+chevetaine|chevetaine|chevetaigne|CAPITANEUS||NOUN||Masc,Sing,Nom
+chief|chief1|chief1|CAPUT||NOUN||Masc,Sing,Acc
 chiens|chiens|chien|CANIS||NOUN||Masc,Sing,Acc
 chiens|chiens1|chien|CANIS||NOUN||Masc,Plur,Nom
 chier|chier|chier|CARUS||ADJ||Fem,Sing
 chouse|chouse|chose|CAUSA||NOUN||Fem,Sing
-chouse|chouse1|chose|CAUSA||NOUN||Fem,Plur
 chouses|chouses|chose|CAUSA||NOUN||Fem,Plur
 ciascun|ciascun|chascun|CATA||PRON||Ind,Masc,Sing,Nom
 ciascune|ciascune1|chascun|CATA||PRON||Ind,Fem,Sing
@@ -271,7 +268,7 @@ condusierés|condusierés|conduire|CONDUCERE||VERB||Fin,Ind,Fut,Act,Trans,2,Plur
 coneü|coneü1|conoistre|COGNOSCERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 confondue|confondue|confondre|CONFUNDERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 conjea|conjea|congeer|COMMEATUS||VERB||Fin,Ind,Past,Act,Trans,3,Sing
-conjee|conjee1|congeer|COMMEATUS||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+conjee|conjee|congeer|COMMEATUS||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
 conjé|conjé|congié|COMMEATUS||NOUN||Masc,Sing,Acc
 connois|connois|conoistre|COGNOSCERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 connosoient|connosoient|conoistre|COGNOSCERE||VERB||Fin,Ind,Imp,Act,Trans,3,Plur
@@ -281,14 +278,14 @@ conplir|conplir|complir|COMPLERE||VERB||Ind,Inf,Pres,Act,Trans
 conqerra|conqerra|conquerir|CONQUIRERE||VERB||Fin,Ind,Fut,Act,Trans,3,Sing
 conqerre|conqerre|conquerir|CONQUIRERE||VERB||Ind,Inf,Pres,Act,Trans
 conseil|conseil|conseil|CONSILIUM||NOUN||Masc,Sing,Acc
-consoil|consoil|conseil|CONSILIUM||NOUN||Masc,Sing,Acc
-consoil|consoil1|conseillier3|CONSILIARE||VERB||Fin,Ind,Pres,Intr,1,Sing
+consoil|consoil1|conseil|CONSILIUM||NOUN||Masc,Sing,Acc
+consoil|consoil4|conseillier3|CONSILIARE||VERB||Fin,Ind,Pres,Intr,1,Sing
 consoill|consoill|conseil|CONSILIUM||NOUN||Masc,Sing,Acc
 consoill|consoill1|conseil|CONSILIUM||NOUN||Masc,Sing,Nom
 consoilla|consoilla|conseillier3|CONSILIARE||VERB||Fin,Ind,Past,Intr,3,Sing
 consoillai|consoillai|conseillier3|CONSILIARE||VERB||Fin,Ind,Past,Intr,1,Sing
 consoillerons|consoillerons|conseillier3|CONSILIARE||VERB||Fin,Ind,Fut,Intr,1,Plur
-consoillier|consoillier1|conseillier3|CONSILIARE||VERB||Ind,Inf,Pres,Intr
+consoillier|consoillier|conseillier|CONSILIARIUS||NOUN||Masc,Sing,Acc
 consoillierent|consoillierent|conseillier3|CONSILIARE||VERB||Fin,Ind,Past,Intr,3,Plur
 consoillierés|consoillierés|conseillier3|CONSILIARE||VERB||Fin,Ind,Fut,Intr,2,Plur
 consoillés|consoillés|conseillier3|CONSILIARE||VERB||Fin,Ind,Pres,Intr,2,Plur
@@ -304,15 +301,15 @@ contredeïst|contredeïst|contredire|CONTRADICERE||VERB||Fin,Sub,Imp,Act,Intr,3,
 contredit|contredit|contredit|CONTRADICERE||NOUN||Masc,Sing,Acc
 contree|contree|contree|CONTRA||NOUN||Fem,Sing
 contr’|contr’|contre|CONTRA||ADP||
-contés|contés1||||||
+contés|contés2||||||
 convenant|convenant|covenant|CONVENIRE||NOUN||Masc,Sing,Acc
 convenoit|convenoit|covenir|CONVENIRE||VERB||Fin,Ind,Imp,Intr,3,Sing
-conviens|conviens1|covenir|CONVENIRE||VERB||Fin,Ind,Pres,Rfl,3,Sing
+conviens|conviens|covenir|CONVENIRE||VERB||Fin,Ind,Pres,Intr,3,Sing
 convient|convient|covenir|CONVENIRE||VERB||Fin,Ind,Pres,Intr,3,Sing
 coraje|coraje|corage|COR||NOUN||Masc,Sing,Acc
 corociés|corociés1|corrocier|*CORRUPTUM||VERB|Adj|Ind,Part,Past,Sing,Masc
 coroi|coroi1|conroi|*REþS||NOUN||Masc,Sing,Acc
-corrociéz|corrociéz2|corrocier|*CORRUPTUM||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+corrociéz|corrociéz1|corrocier|*CORRUPTUM||VERB|Adj|Ind,Part,Past,Sing,Masc
 cors|cors|cors1|CORPUS||NOUN||Masc,Sing,Acc
 cortois|cortois|cortois|COHORS||ADJ||Masc,Sing,Nom
 cortois|cortois1|cortois|COHORS||ADJ||Masc,Sing,Acc
@@ -337,6 +334,7 @@ cuiderent|cuiderent|cuidier1|COGITARE||VERB||Fin,Ind,Past,Intr,3,Plur
 cuidiés|cuidiés|cuidier1|COGITARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 cuidoient|cuidoient|cuidier1|COGITARE||VERB||Fin,Ind,Imp,Intr,3,Plur
 cuit|cuit|cuidier1|COGITARE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
+cuit|cuit1|cuidier1|COGITARE||VERB||Fin,Ind,Pres,Intr,1,Sing
 cuor|cuor|cuer2|COR||NOUN||Masc,Sing,Acc
 cure|cure|cure|CURA||NOUN||Fem,Sing
 c’|c’|se|SI||SCONJ||
@@ -371,7 +369,7 @@ demanda|demanda|demander|DEMANDARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 demande|demande|demander|DEMANDARE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
 demandee|demandee|demander|DEMANDARE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 demander|demander|demander|DEMANDARE||VERB||Ind,Inf,Pres,Act,Trans
-demanderent|demanderent|demander|DEMANDARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
+demanderent|demanderent1|demander|DEMANDARE||VERB||Fin,Ind,Past,Intr,3,Plur
 demora|demora|demorer|DEMORARI||VERB||Fin,Ind,Past,Intr,3,Sing
 demoroit|demoroit|demorer|DEMORARI||VERB||Fin,Ind,Imp,Intr,3,Sing
 deroberai|deroberai|desrober|*RAUBôN||VERB||Fin,Ind,Fut,Act,Trans,1,Sing
@@ -400,31 +398,33 @@ devant|devant1|devant|ABANTE||ADP||
 devin|devin|devin1|DIVINUS||ADJ||Masc,Sing,Acc
 deviner|deviner|deviner|DIVINARE||VERB||Ind,Inf,Pres,Act,Trans
 deviner|deviner1|deviner|DIVINARE||VERB|Noun|Ind,Inf,Pres
-deviser|deviser|deviser|*DEVISARE||VERB||Ind,Inf,Pres,Act,Trans
-devisés|devisés|deviser|*DEVISARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+deviser|deviser|deviser|*DIVISARE||VERB||Ind,Inf,Pres,Act,Trans
+devisés|devisés|deviser|*DIVISARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 devoient|devoient|devoir|DEBERE||VERB|auxMod|Fin,Ind,Imp,3,Plur
 devons|devons1|devoir|DEBERE||VERB|auxMod|Fin,Ind,Pres,1,Plur
 devés|devés1|devoir|DEBERE||VERB|auxMod|Fin,Imp,Pres,2,Plur
 deïstes|deïstes|dire|DICERE||VERB||Fin,Ind,Past,Act,Trans,2,Plur
 deüssent|deüssent|devoir|DEBERE||VERB|auxMod|Fin,Sub,Imp,3,Plur
 di|di|dire|DICERE||VERB||Fin,Ind,Pres,Intr,1,Sing
+di|di3|dire|DICERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 diex|diex|dieu|DEUS||NOUN||Masc,Plur,Acc
 diex|diex2|dieu|DEUS||NOUN||Masc,Sing,Nom
 diex|diex3|dieu|DEUS||NOUN||Masc,Sing,Acc
 diois|diois|dire|DICERE||VERB||Fin,Sub,Pres,Intr,2,Plur
 dir|dir|dire|DICERE||VERB||Ind,Inf,Pres,Intr
-dirai|dirai|dire|DICERE||VERB||Fin,Ind,Pres,Intr,1,Sing
-dirai|dirai1|dire|DICERE||VERB||Fin,Ind,Fut,Intr,2,Sing
+dirai|dirai|dire|DICERE||VERB||Fin,Ind,Fut,Intr,1,Sing
+dirai|dirai1|dire|DICERE||VERB||Fin,Ind,Fut,Act,Trans,2,Sing
+dirai|dirai2|dire|DICERE||VERB||Fin,Ind,Fut,Act,Trans,1,Sing
 dire|dire|dire|DICERE||VERB||Ind,Inf,Pres,Intr
-dis|dis|dire|DICERE||VERB||Fin,Ind,Past,Intr,1,Sing
 dis|dis1|dit|DICERE||NOUN||Masc,Plur,Acc
+dis|dis2|dire|DICERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 disoit|disoit|dire|DICERE||VERB||Fin,Ind,Imp,Intr,3,Sing
 dist|dist|dire|DICERE||VERB||Fin,Ind,Past,Intr,3,Sing
 distrent|distrent|dire|DICERE||VERB||Fin,Ind,Past,Intr,3,Plur
-dit|dit1|dire|DICERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
-dit|dit4|dire|DICERE||VERB||Fin,Ind,Pres,Intr,3,Sing
-dit|dit5|dit|DICERE||NOUN||Masc,Sing,Acc
-dit|dit6|dire|DICERE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
+dit|dit|dire|DICERE||VERB||Fin,Ind,Pres,Intr,3,Sing
+dit|dit4|dire|DICERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+dit|dit5|dire|DICERE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
+dit|dit9|dit|DICERE||NOUN||Masc,Sing,Acc
 dites|dites1|dire|DICERE||VERB||Fin,Imp,Pres,Intr,2,Plur
 doi|doi1|devoir|DEBERE||VERB|auxMod|Fin,Ind,Pres,1,Sing
 doinent|doinent|doner|DONARE||VERB||Fin,Sub,Pres,Act,Trans,3,Plur
@@ -461,9 +461,13 @@ els|els2|ueil|OCULUS||NOUN||Masc,Plur,Acc
 emmenastes|emmenastes|enmener|MINARE||VERB||Fin,Ind,Past,Act,Trans,2,Plur
 en|en|en1|IN||ADP||
 en|en2|en2|INDE||PRON||
+en_estant|en_estant|ester|STARE||VERB|Noun|Ind,Part,Pres
 en_luec|en_luec|iluec|ILLOC||ADV||Loc
+en_tel_mainiere|en_tel_mainiere|maniere|MANUARIUS||NOUN|Adv|Fem,Sing
+en_tel_mainiere_com|en_tel_mainiere_com||||||
+en_tel_mainiere_qe|en_tel_mainiere_qe||||||
+en_tel_mainiere_q’|en_tel_mainiere_q’|maniere|MANUARIUS||NOUN|SConj |Fem,Sing
 enbatre|enbatre|embatre|BATTUERE||VERB||Ind,Inf,Pres,Intr
-encontre|encontre|encontre2|CONTRA||NOUN|Adp|Fem,Sing
 encor|encor|encore|HORA||ADV||
 encore|encore|encore|HORA||ADV||
 endormi|endormi|endormir|DORMIRE||VERB||Fin,Ind,Past,Rfl,3,Sing
@@ -476,7 +480,6 @@ engrés|engrés|engrès|INGRESSUS1||ADJ||Masc,Sing,Nom
 enmenerent|enmenerent|enmener|MINARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 enmercia|enmercia|enmercie (DMF)|MERCES||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 enpire|enpire|empire|IMPERIUM||NOUN||Masc,Sing,Acc
-enpire|enpire1|empire|IMPERIUM||NOUN||Masc,Sing,Nom
 enpiree|enpiree1|empirier|PEJOR||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 enpiré|enpiré|empirier|PEJOR||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 enporterent|enporterent|emporter2|PORTARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
@@ -522,18 +525,17 @@ eslist|eslist|eslire|ELIGERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 esmaient|esmaient|esmaiier|*EXMAGARE||VERB||Fin,Ind,Pres,Rfl,3,Plur
 esmeü|esmeü1|esmovoir|EXMOVERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 espaigne|espaigne|Espagne|||PROPN||Fem,Sing
-espaontés|espaontés|espöenter|*EXPAVENTARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+espaontés|espaontés2|espöenter|*EXPAVENTARE||VERB|Adj|Ind,Part,Past,Sing,Masc
 esploita|esploita|esploitier|EXPLICITUM||VERB||Fin,Ind,Past,Intr,3,Sing
 est|est|estre1|ESSE||VERB||Fin,Ind,Pres,Intr,3,Sing
 est|est1|estre1|ESSE||VERB|auxCop|Fin,Ind,Pres,3,Sing
 est|est2|estre1|ESSE||VERB|auxPass|Fin,Ind,Pres,3,Sing,MWEs
-est|est4|estre1|ESSE||VERB|auxTens|Fin,Ind,Pres,2,Plur,MWEs
-est|est5|estre1|ESSE||VERB||Fin,Ind,Pres,Intr,2,Plur
-estant|estant||||||
+est|est3|estre1|ESSE||VERB|auxTens|Fin,Ind,Pres,3,Sing,MWEs
 estat|estat|estat|STATUS||NOUN||Masc,Sing,Acc
 estee|estee|estre1|ESSE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
-ester|ester|estre1|ESSE||VERB|Noun|Ind,Inf,Pres
-estoie|estoie1|estre1|ESSE||VERB|auxTens|Fin,Ind,Imp,1,Sing,MWEs
+ester|ester1|estre1|ESSE||VERB||Ind,Inf,Pres,Intr
+estoie|estoie|estre1|ESSE||VERB||Fin,Ind,Imp,Act,Intr,3,Sing
+estoient|estoient|estre1|ESSE||VERB|auxCop|Fin,Ind,Imp,3,Plur
 estoient|estoient1|estre1|ESSE||VERB||Fin,Ind,Imp,Intr,3,Plur
 estoient|estoient2|estre1|ESSE||VERB|auxTens|Fin,Ind,Imp,3,Plur,MWEs
 estoient|estoient3|estre1|ESSE||VERB|auxPass|Fin,Ind,Imp,3,Plur,MWEs
@@ -560,7 +562,7 @@ fasois|fasois1|faire|FACERE||VERB||Fin,Sub,Pres,Act,Trans,2,Plur
 fauser|fauser|fausser|FALSUS||VERB||Ind,Inf,Pres,Act,Trans
 feels|feels|fëel|FIDELIS||ADJ|Noun|Masc,Plur,Acc
 feiront|feiront|faire|FACERE||VERB||Fin,Ind,Fut,Act,Trans,3,Plur
-feisons|feisons|faire|FACERE||VERB||Fin,Ind,Pres,Act,Trans,1,Plur
+feisons|feisons1|faire|FACERE||VERB||Fin,Imp,Pres,Intr,1,Plur
 fel|fel|felon|*FILLO||ADJ||Masc,Sing,Nom
 fellonie|fellonie|felonie|*FILLO||NOUN||Fem,Sing
 feme|feme|feme|FEMINA||NOUN||Fem,Sing
@@ -576,16 +578,17 @@ feroit|feroit|faire|FACERE||VERB||Fin,Cnd,Pres,Act,Trans,3,Sing
 feroit|feroit2|ferir|FERIRE||VERB|auxMod|Fin,Cnd,Pres,3,Sing
 feront|feront|faire|FACERE||VERB||Fin,Ind,Fut,Act,Trans,3,Plur
 ferés|ferés|faire|FACERE||VERB||Fin,Ind,Fut,Act,Trans,2,Plur
-fesoie|fesoie1|faire|FACERE||VERB||Fin,Sub,Imp,Act,Trans,1,Sing
+fesoie|fesoie|faire|FACERE||VERB||Fin,Sub,Imp,Act,Trans,2,Sing
 fesois|fesois1|faire|FACERE||VERB||Fin,Sub,Imp,Act,Trans,2,Plur
 fesons|fesons1|faire|FACERE||VERB||Fin,Ind,Pres,Act,Trans,1,Plur
-fet|fet|faire|FACERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
+fet|fet1|faire|FACERE||VERB||Fin,Ind,Past,Intr,3,Sing
+fet|fet2|faire|FACERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 fet|fet3|faire|FACERE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
-fet|fet4|faire|FACERE||VERB|auxMod|Ind,Part,Past,Sing,Masc
-fet|fet6|fait1|FACTUM||NOUN||Masc,Sing,Acc
-fet|fet7|faire|FACERE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
-fet|fet8|faire|FACERE||VERB|compTens|Ind,Part,Past,Plur,Fem,MWEs
-fet|fet9|faire|FACERE||VERB||Fin,Ind,Past,Intr,3,Sing
+fet|fet4|faire|FACERE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
+fet|fet5|faire|FACERE||VERB|compTens|Ind,Part,Past,Plur,Fem,MWEs
+fet|fet6|faire|FACERE||VERB|auxMod|Ind,Part,Past,Sing,Masc
+fet|fet8|faire|FACERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+fet|fet9|fait1|FACTUM||NOUN||Masc,Sing,Acc
 fete|fete|faire|FACERE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
 fete|fete2|faire|FACERE||VERB||Ind,Part,Past,Sing,Fem
 feu|feu1|feu|FOCUS||NOUN||Masc,Sing,Acc
@@ -597,12 +600,13 @@ fils|fils|fil2|FILIUS||NOUN||Masc,Plur,Nom
 fils|fils1|fil2|FILIUS||NOUN||Masc,Plur,Acc
 filz|filz|fil2|FILIUS||NOUN||Masc,Plur,Acc
 filz|filz1|fil2|FILIUS||NOUN||Masc,Plur,Nom
-fin|fin1|fin1|FINIS||NOUN||Fem,Sing
+fin|fin|fin2|FINIS||ADJ||Fem,Sing
 finee|finee1|finer|FINIRE||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
 firent|firent|faire|FACERE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 fis|fis|fil2|FILIUS||NOUN||Masc,Sing,Nom
 fis|fis1|fil2|FILIUS||NOUN||Masc,Sing,Acc
 fis|fis2|faire|FACERE||VERB||Fin,Ind,Past,Act,Trans,1,Sing
+fis|fis3|faire|FACERE||VERB||Fin,Ind,Past,Intr,1,Sing
 fist|fist|faire|FACERE||VERB||Fin,Ind,Past,Intr,3,Sing
 fist|fist1|faire|FACERE||VERB|auxMod|Fin,Ind,Past,3,Sing
 fist|fist2|faire|FACERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
@@ -615,7 +619,6 @@ fol|fol1|fol3|FOLLIS||ADJ||Masc,Sing,Nom
 follie|follie|folie2|FOLLIS||NOUN||Fem,Sing
 fondés|fondés|fonder2|FUNDARE||VERB|Adj|Ind,Part,Past,Sing,Masc
 font|font|faire|FACERE||VERB||Fin,Ind,Pres,Act,Trans,3,Plur
-font|font1|faire|FACERE||VERB||Fin,Ind,Pres,Act,Trans,3,Plur
 fontaine|fontaine|fontaine|FONTANA||NOUN||Fem,Sing
 for|for|fors1|FORAS||ADV||Loc
 forbiaus|forbiaus||||||
@@ -629,21 +632,23 @@ forte|forte|fort|FORTIS||ADJ||Fem,Sing
 fortune|fortune|fortune|FORTUNA||NOUN||Fem,Sing
 franchise|franchise|franchise|FRANK||NOUN||Fem,Sing
 frans|frans|franc1|FRANK||ADJ||Masc,Plur,Nom
-frere|frere|frere|FRATER||NOUN||Masc,Sing,Acc
+frere|frere1|frere|FRATER||NOUN||Masc,Sing,Acc
 freres|freres|frere|FRATER||NOUN||Masc,Plur,Nom
 fu|fu|estre1|ESSE||VERB|auxCop|Fin,Ind,Past,3,Sing
 fu|fu1|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
 fu|fu2|estre1|ESSE||VERB|auxTens|Fin,Ind,Past,3,Sing,MWEs
+fu|fu3|estre1|ESSE||VERB||Fin,Ind,Past,Intr,3,Sing
 fui|fui1|estre1|ESSE||VERB||Fin,Ind,Past,Intr,1,Sing
 fui|fui2|estre1|ESSE||VERB|compTens|Fin,Ind,Past,1,Sing,MWEs
+fui|fui3|estre1|ESSE||VERB|auxCop|Fin,Ind,Past,1,Sing
 fumes|fumes|estre1|ESSE||VERB||Fin,Ind,Past,Intr,1,Plur
 furent|furent|estre1|ESSE||VERB||Fin,Ind,Past,Intr,3,Plur
 furent|furent1|estre1|ESSE||VERB|auxTens|Fin,Ind,Past,3,Plur,MWEs
 furent|furent2|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Plur,MWEs
 furent|furent4|estre1|ESSE||VERB|auxCop|Fin,Ind,Past,3,Plur
 fusiés|fusiés|estre1|ESSE||VERB|auxPass|Fin,Sub,Imp,2,Plur,MWEs
+fust|fust2|estre1|ESSE||VERB|auxPass|Fin,Ind,Past,3,Sing,MWEs
 fust|fust3|estre1|ESSE||VERB|auxTens|Fin,Ind,Past,3,Sing,MWEs
-fust|fust4|estre1|ESSE||VERB|auxPass|Fin,Sub,Imp,3,Sing,MWEs
 fustes|fustes|estre1|ESSE||VERB|auxCop|Fin,Sub,Pres,2,Plur
 gabant|gabant|gaber|GABB||VERB||Ind,Ger,Pres,Intr
 gaber|gaber|gaber|GABB||VERB||Ind,Inf,Pres,Intr
@@ -654,14 +659,14 @@ gardois|gardois|warder|WARDôN||VERB||Fin,Sub,Pres,Act,Trans,2,Plur
 gardés|gardés1|warder|*WARDôN||VERB||Fin,Imp,Pres,Intr,2,Plur
 gardés|gardés2|warder|*WARDôN||VERB||Fin,Imp,Pres,Rfl,2,Plur
 garnie|garnie1|warnir|*WARNJAN||VERB|Adj|Ind,Part,Past,Sing,Fem
-garnis|garnis2|warnir|*WARNJAN||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
+garnis|garnis3|warnir|*WARNJAN||VERB|Adj|Ind,Part,Past,Plur,Masc
 garnisse|garnisse|warnir|WARNJAN||VERB||Fin,Sub,Pres,Act,Trans,1,Sing
 gaster|gaster|gaster|VASTARE||VERB||Ind,Inf,Pres,Act,Trans
 gasterent|gasterent|gaster|VASTARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 ge|ge|je|EGO||PRON||Prs,1,Sing,Nom
 gens|gens|gent1|GENS||NOUN||Fem,Sing
 gens|gens1|gent1|GENS||NOUN||Fem,Plur
-gent|gent|gent2|GENITUS||ADJ||Fem,Sing
+gent|gent1|gent1|GENS||NOUN||Fem,Sing
 genz|genz|gent1|GENS||NOUN||Fem,Plur
 genz|genz1|gent1|GENS||NOUN||Fem,Sing
 gerroier|gerroier|guerroiier2|*WERRA||VERB||Ind,Inf,Pres,Intr
@@ -670,25 +675,26 @@ getoit|getoit|jeter|JACTARE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
 gisoient|gisoient|jesir|JACERE||VERB||Fin,Ind,Imp,Intr,3,Plur
 gloire|gloire|gloire|GLORIA||NOUN||Fem,Sing
 gobverner|gobverner|governer|GUBERNARE||VERB||Ind,Inf,Pres,Act,Trans
-grant|grant|grant|GRANDIS||ADJ||Masc,Sing,Acc
-grant|grant1|grant|GRANDIS||ADJ||Fem,Sing
-grant|grant2|grant|GRANDIS||ADJ||Masc,Sing,Nom
-grant|grant4|grant|GRANDIS||ADJ||Masc,Plur,Acc
+grant|grant|grant|GRANDIS||ADJ||Masc,Sing,Nom
+grant|grant1|grant|GRANDIS||ADJ||Masc,Sing,Acc
+grant|grant3|grant|GRANDIS||ADJ||Masc,Plur,Acc
+grant|grant4|grant|GRANDIS||ADJ||Fem,Sing
 gres|gres|Grèce|||PROPN||Fem,Sing
 grese|grese|Grèce|||PROPN||Fem,Sing
 gresois|gresois|gregois|GRAECUS||ADJ||Fem,Sing
+gresois|gresois1|gregois|GRAECUS||ADJ|Noun|Masc,Plur,Acc
 gresois|gresois2|gregois|GRAECUS||ADJ|Noun|Masc,Plur,Nom
 groi|groi||||||
 gré|gré|gré2|GRATUS||NOUN||Masc,Sing,Acc
 guerre|guerre|guerre|*WERRA||NOUN||Fem,Sing
 guerroiant|guerroiant|guerroiier2|*WERRA||VERB|Adj|Ind,Part,Pres
 guerroier|guerroier|guerroiier2|*WERRA||VERB||Ind,Inf,Pres,Intr
-guerroier|guerroier1|guerroiier1|*WERRA||NOUN||Masc,Sing,Acc
+guerroier|guerroier2|guerroiier2|*WERRA||VERB|Noun|Ind,Inf,Pres
 guier|guier|guiier|*WîTAN||VERB||Ind,Inf,Pres,Act,Trans
 guise|guise|guise|*WîSA||NOUN||Fem,Sing
 guises|guises|guise|*WîSA||NOUN||Fem,Plur
+hardis|hardis|hardi|*HARDJAN||ADJ||Masc,Plur,Acc
 hardis|hardis2|hardi|*HARDJAN||ADJ||Masc,Sing,Acc
-hardis|hardis3|hardi|*HARDJAN||ADJ||Masc,Sing,Nom
 hardist|hardist|ardre|ARDERE||VERB||Fin,Ind,Past,Act,Trans,2,Plur
 haste|haste|haste2|*HAIST||NOUN||Fem,Sing
 hautement|hautement|hautement|ALTUS||ADV||Man
@@ -707,6 +713,8 @@ hoblié|hoblié1|oblïer|*OBLITARE||VERB||Ind,Inf,Pres,Act,Trans
 hocire|hocire|ocire|OCCIDERE||VERB||Ind,Inf,Pres,Act,Trans
 hocis|hocis2|ocire|OCCIDERE||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
 hocistrent|hocistrent|ocire|OCCIDERE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
+hoir|hoir|oir|HERES||NOUN||Masc,Sing,Acc
+hoirs|hoirs||||||
 hom|hom1|ome|HOMO||NOUN||Masc,Sing,Acc
 home|home|ome|HOMO||NOUN||Masc,Sing,Nom
 homes|homes|ome|HOMO||NOUN||Masc,Plur,Nom
@@ -720,6 +728,7 @@ hont|hont|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,3,Plur,MWEs
 hont|hont1|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,3,Plur
 hont|hont2|honte|*HAUNIþA||NOUN||Fem,Sing
 honte|honte|honte|*HAUNIþA||NOUN||Fem,Sing
+honte|honte1|honte|*HAUNIþA||NOUN||Masc,Sing,Acc
 hontes|hontes|honte|*HAUNIþA||NOUN||Fem,Plur
 honteusement|honteusement|hontosement|*HAUNIþA||ADV||Man
 hontosement|hontosement|hontosement|*HAUNIþA||ADV||Man
@@ -734,7 +743,6 @@ hoscure|hoscure|oscur|OBSCURUS||ADJ||Fem,Sing
 hosté|hosté|oster2|OBSTARE||VERB||Fin,Imp,Pres,Intr,2,Plur
 hot|hot|avoir|HABERE||VERB|auxTens|Fin,Ind,Past,3,Sing,MWEs
 hot|hot1|avoir|HABERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
-hot|hot2|avoir|HABERE||VERB||Fin,Ind,Past,Intr,3,Sing
 hotroié|hotroié|otroiier|*AUCTORIZARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 hovriers|hovriers|ovrier|OPERARIUS||NOUN||Masc,Plur,Acc
 hovrés|hovrés2|ovrer|OPERARI||VERB|Adj|Ind,Part,Past,Sing,Masc
@@ -743,10 +751,7 @@ hoï|hoï|öir|AUDIRE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 hoï|hoï1|öir|AUDIRE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 hoï|hoï2|öir|AUDIRE||VERB||Fin,Ind,Past,Act,Trans,1,Sing
 hoïr|hoïr|öir|AUDIRE||VERB||Ind,Inf,Pres,Act,Trans
-hoïr|hoïr1|oir|HERES||NOUN||Masc,Plur,Nom
-hoïr|hoïr2|oir|HERES||NOUN||Masc,Plur,Acc
 hoïront|hoïront|öir|AUDIRE||VERB||Fin,Ind,Fut,Act,Trans,3,Plur
-hoïrs|hoïrs|oir|HERES||NOUN||Masc,Plur,Nom
 hoïrés|hoïrés|öir|AUDIRE||VERB||Fin,Ind,Fut,Act,Trans,2,Plur
 i|i|i2|HIC||PRON||
 il|il|il|ILLE||PRON||Prs,3,Masc,Sing,Nom
@@ -775,10 +780,10 @@ jugerais|jugerais|jugier|JUDICARE||VERB||Fin,Cnd,Pres,Act,Trans,2,Sing
 juno|juno|Junon|||PROPN||Fem,Sing
 jusqe|jusqe|jusque|USQUE||ADP||
 jusque|jusque|jusque|USQUE||ADP||
-l_en|l_en|on|HOMO||PRON||Prs,3,Nom
+l_en|l_en|on|HOMO||PRON||Prs,3,Sing,Nom
+l_on|l_on||||||
 la|la|le|ILLE||DET||ArtDef,Fem,Sing
 la|la1|le|ILLE||PRON||Prs,3,Fem,Sing,Acc
-la|la2|le|ILLE||DET||ArtDef,Fem,Plur
 la_qel|la_qel|quel1|QUALIS||PRON||Int,Fem,Sing
 labor|labor|labor1|LABOR||NOUN||Masc,Sing,Acc
 laidengerent|laidengerent|laidengier|*LAIþ||VERB||Fin,Ind,Past,Act,Trans,3,Plur
@@ -797,27 +802,27 @@ laquel|laquel|quel1|QUALIS||PRON||Int,Fem,Sing
 laquels|laquels|quel1|QUALIS||PRON||Int,Fem,Sing
 laësse|laësse|lëece|LAETITIA||NOUN||Fem,Sing
 le|le|le|ILLE||DET||ArtDef,Masc,Sing
-le|le1|le|ILLE||PRON||Prs,3,Masc,Sing,Acc
+le|le1|le|ILLE||DET||ArtDef,Masc,Plur
 le|le2|le|ILLE||DET||ArtDef,Fem,Sing
 le|le3|le|ILLE||DET||ArtDef,Fem,Plur
-le|le5|le|ILLE||PRON||Prs,3,Neut,Sing,Acc
-le|le7|le|ILLE||PRON||Prs,3,Masc,Plur,Acc
-le|le8|le|ILLE||DET||ArtDef,Masc,Plur
+le|le4|le|ILLE||PRON||Prs,3,Masc,Sing,Acc
+le|le5|le|ILLE||PRON||Prs,3,Masc,Plur,Acc
+le|le6|le|ILLE||PRON||Prs,3,Neut,Sing,Acc
+le|le9|li|ILLE||PRON||Prs,3,Masc,Sing,Acc
 le_qel|le_qel|quel1|QUALIS||PRON||Int,Masc,Sing,Nom
-le_qels|le_qels3|quel1|QUALIS||PRON||Int,Fem,Plur
+le_qels|le_qels4|quel1|QUALIS||DET||Int,Masc,Sing,Nom
 lengue|lengue|langue1|LINGUA||NOUN||Fem,Sing
 les|les|le|ILLE||DET||ArtDef,Masc,Plur
-les|les2|le|ILLE||DET||ArtDef,Fem,Plur
-les|les3|le|ILLE||PRON||Prs,3,Fem,Plur,Acc
+les|les1|le|ILLE||DET||ArtDef,Fem,Plur
+les|les2|le|ILLE||DET||ArtDef,Masc,Sing
 les|les4|le|ILLE||PRON||Prs,3,Masc,Plur,Acc
-les|les7|le|ILLE||PRON||Prs,3,Masc,Sing,Acc
-les|les8|le|ILLE||PRON||Prs,3,Neut,Sing,Acc
-les_qels|les_qels1|quel1|QUALIS||PRON||Int,Masc,Plur,Nom
+les|les6|le|ILLE||PRON||Prs,3,Masc,Sing,Acc
+les_qels|les_qels|quel1|QUALIS||PRON||Int,Masc,Plur,Nom
 lettres|lettres|letre|LITTERA||NOUN||Fem,Plur
 li|li|le|ILLE||DET||ArtDef,Masc,Sing
-li|li1|li|ILLE||PRON||Prs,3,Masc,Sing,Acc
-li|li4|li|ILLE||PRON||Prs,3,Fem,Sing,Acc
-li|li5|li|ILLE||PRON||Prs,3,Masc,Plur,Acc
+li|li2|li|ILLE||PRON||Prs,3,Masc,Sing,Acc
+li|li3|li|ILLE||PRON||Prs,3,Fem,Sing,Acc
+li|li4|li|ILLE||PRON||Prs,3,Masc,Plur,Acc
 lignaje|lignaje|lignage|LINEA||NOUN||Masc,Sing,Acc
 loai|loai|löer1|LAUDARE||VERB||Fin,Ind,Past,Act,Trans,1,Sing
 loer|loer|löer1|LAUDARE||VERB||Ind,Inf,Pres,Act,Trans
@@ -861,6 +866,7 @@ manasse|manasse||||||
 manda|manda|mander|MANDARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 mandastes|mandastes|mander|MANDARE||VERB||Fin,Ind,Past,Act,Trans,2,Plur
 mande|mande|mander|MANDARE||VERB||Fin,Ind,Pres,Intr,3,Sing
+mander|mander|mander|MANDARE||VERB||Ind,Inf,Pres,Act,Trans
 mandois|mandois|mander|MANDARE||VERB||Fin,Sub,Pres,Act,Trans,2,Plur
 mandra|mandra|mander|MANDARE||VERB||Fin,Ind,Fut,Act,Trans,3,Sing
 maniere|maniere|maniere|MANUARIUS||NOUN||Fem,Sing
@@ -868,13 +874,13 @@ marier|marier|marïer|MARITARE||VERB||Ind,Inf,Pres,Act,Trans
 mariniers|mariniers|marinier|MARINUS||NOUN||Masc,Plur,Nom
 matire|matire|matiere|MATERIA||NOUN||Fem,Sing
 mau|mau|mal1|MALUS||NOUN||Masc,Sing,Nom
-mau|mau2|mal1|MALUS||ADV||
+mau|mau1|mal1|MALUS||NOUN||Masc,Sing,Acc
 maumis|maumis|maumettre|MITTERE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
 me|me|moi|ME||PRON||Prs,1,Sing,Acc
 me|me1|mon1|MEUS||DET||Poss,Fem,Plur
 me|me2|mais1|MAGIS2||CCONJ||
+meillor|meillor2|meillor|MELIOR||ADJ||Masc,Plur,Acc,Cmp
 meillor|meillor3|meillor|MELIOR||ADJ||Fem,Sing,Cmp
-meillor|meillor4|meillor|MELIOR||ADJ||Masc,Plur,Acc,Cmp
 mena|mena|mener|MINARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 menasa|menasa|menacier|MINACIA||VERB||Fin,Ind,Past,Intr,3,Sing
 mener|mener|mener|MINARE||VERB||Ind,Inf,Pres,Act,Trans
@@ -904,7 +910,7 @@ messaje|messaje1|message2|MITTERE||NOUN||Masc,Sing,Acc
 mesure|mesure|mesure|MENSURA||NOUN||Fem,Sing
 metra|metra|metre2|MITTERE||VERB||Fin,Ind,Fut,Act,Trans,3,Sing
 metés|metés|metre2|MITTERE||VERB||Fin,Imp,Pres,Act,Trans,2,Plur
-meïsmes|meïsmes3|mëisme|IPSE||DET||Ind,Masc,Plur,Nom
+meïsmes|meïsmes5|mëisme|IPSE||DET||Ind,Masc,Plur,Nom
 miels|miels|mieus|MELIOR||ADV||Cmp
 miels|miels1|mieus|MELIOR||ADV|Noun|Cmp
 mien|mien|mien|MEUS||DET||Poss,Masc,Sing,Acc
@@ -913,6 +919,7 @@ mis|mis4|metre2|MITTERE||VERB||Fin,Ind,Past,Rfl,3,Sing
 mis|mis5|metre2|MITTERE||VERB||Fin,Ind,Past,Rfl,1,Sing
 mise|mise1|metre2|MITTERE||VERB|compPass|Ind,Part,Past,Sing,Fem,MWEs
 mist|mist|metre2|MITTERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+mist|mist1|metre2|MITTERE||VERB||Fin,Ind,Past,Rfl,3,Sing
 mistrent|mistrent|metre2|MITTERE||VERB||Fin,Ind,Past,Rfl,3,Plur
 mistrent|mistrent1|metre2|MITTERE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 moi|moi|moi|ME||PRON||Prs,1,Sing,Acc
@@ -923,13 +930,12 @@ monde|monde1|monde1|MUNDUS1||NOUN||Masc,Sing,Acc
 monterent|monterent|monter|*MONTARE||VERB||Fin,Ind,Past,Intr,3,Plur
 morir|morir|morir|MORI||VERB||Ind,Inf,Pres,Intr
 mors|mors|morir|MORI||VERB|compTens|Ind,Part,Past,Plur,Masc,MWEs
+mors|mors1|morir|MORI||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 mort|mort|mort|MORS||NOUN||Fem,Sing
 morte|morte1|morir|MORI||VERB|compTens|Ind,Part,Past,Sing,Fem,MWEs
 mot|mot|mot|MUTTUM||NOUN||Masc,Sing,Acc
 moustré|moustré|mostrer|MONSTRARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 mult|mult|mout|MULTUS||ADV||
-mult|mult1|mout|MULTUS||DET||Ind,Masc,Sing,Nom
-mult|mult2|mout|MULTUS||DET|Noun|Ind,Neut,Sing,Acc
 més|més|mais1|MAGIS2||ADV||
 m’|m’|moi|ME||PRON||Prs,1,Sing,Acc
 nagerent|nagerent|nagier|NAVIGARE||VERB||Fin,Ind,Past,Intr,3,Plur
@@ -940,10 +946,12 @@ ne|ne1|ne2|NEC||CCONJ||
 nef|nef|nef2|NAVIS||NOUN||Fem,Sing
 nen|nen|non|NON||ADV||Neg
 nes|nes1|nef2|NAVIS||NOUN||Fem,Plur
+nes|nes2|nef2|NAVIS||NOUN||Fem,Sing
 nestor|nestor|Nestor|||PROPN||Masc,Sing,Acc
 nestor|nestor1|Nestor|||PROPN||Masc,Sing,Nom
 ni|ni|ne2|NEC||CCONJ||
 noiant|noiant|nïent|*NE GENTEM||ADV||Neg
+noiant|noiant2|nïent|*NE GENTEM||NOUN||Neut,Sing,Acc
 noiast|noiast|noiier1|NECARE||VERB||Fin,Sub,Imp,Intr,3,Sing
 noier|noier|noiier1|NECARE||VERB||Ind,Inf,Pres,Intr
 noire|noire|noir|NIGER||ADJ||Fem,Sing
@@ -959,13 +967,12 @@ nostre|nostre4|nostre|NOSTER||DET||Poss,Masc,Plur,Acc
 nuit|nuit|nuit|NOX||NOUN||Fem,Sing
 nulle|nulle|nul|NULLUS||DET||Ind,Fem,Sing
 nullui|nullui|nul|NULLUS||PRON||Ind,Masc,Sing,Acc
-nuls|nuls|nul|NULLUS||DET||Ind,Masc,Sing,Nom
+nuls|nuls3|nul|NULLUS||PRON||Ind,Sing,Nom
 n’|n’|ne1|NON||ADV||Neg
 n’|n’1|en2|INDE||PRON||
 oceïst|oceïst|ocire|OCCIDERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 odor|odor|odor|ODOR||NOUN||Masc,Sing,Acc
 ofri|ofri|ofrir|OFFERRE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
-on|on|on|HOMO||PRON||Prs,3,Sing,Nom
 onqes|onqes|onque|UMQUAM||ADV||Tim
 ont|ont|avoir|HABERE||VERB||Fin,Ind,Pres,Act,Trans,3,Plur
 ont|ont1|avoir|HABERE||VERB|auxTens|Fin,Ind,Pres,3,Plur,MWEs
@@ -1006,7 +1013,7 @@ parlement|parlement|parlement|PARABOLARE||NOUN||Masc,Sing,Acc
 parler|parler|parler|PARABOLARE||VERB||Ind,Inf,Pres,Intr
 parlerent|parlerent|parler|PARABOLARE||VERB||Fin,Ind,Past,Intr,3,Plur
 parlés|parlés|parler|PARABOLARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
-paroles|paroles1|parole|PARABOLA||NOUN||Fem,Plur
+paroles|paroles|parole|PARABOLA||NOUN||Fem,Sing
 paroule|paroule1|parole|PARABOLA||NOUN||Fem,Sing
 paroules|paroules|parole|PARABOLA||NOUN||Fem,Plur
 part|part|part1|PARS||NOUN||Fem,Sing
@@ -1036,7 +1043,7 @@ pere|pere|pere2|PATER||NOUN||Masc,Sing,Nom
 pere|pere1|pere2|PATER||NOUN||Masc,Sing,Acc
 perils|perils|peril|PERICULUM||NOUN||Masc,Plur,Acc
 pes|pes|pais|PAX||NOUN||Fem,Sing
-pesmé|pesmé|pesme|PESSIMUS||ADJ||Fem,Sing,Abs
+pesme|pesme||||||
 petis|petis|petit|*PETTITTUS||ADJ||Masc,Plur,Acc
 piez|piez|pié|PES||NOUN||Masc,Plur,Acc
 pirre|pirre||||||
@@ -1090,7 +1097,7 @@ prenoit|prenoit|prendre|PREHENDERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
 prenons|prenons|prendre|PREHENDERE||VERB||Fin,Ind,Pres,Act,Trans,1,Plur
 prent|prent|prendre|PREHENDERE||VERB||Fin,Ind,Pres,Rfl,3,Sing
 preu|preu|pro|PRODE||ADJ||Masc,Sing,Nom
-preus|preus1|pro|PRODE||ADJ||Masc,Plur,Nom
+preus|preus|pro|PRODE||ADJ||Masc,Sing,Nom
 preuz|preuz2|pro|PRODE||ADJ||Masc,Sing,Acc
 prevoir|prevoir|provoire|PRESBYTER||NOUN||Masc,Plur,Nom
 prevoire|prevoire|provoire|PRESBYTER||NOUN||Masc,Sing,Acc
@@ -1127,6 +1134,7 @@ puis_qu’|puis_qu’|plus|POSTEA||ADV|SConj |Tim,MWEs
 puis_q’|puis_q’|plus|POSTEA||ADV|SConj |Tim,MWEs
 puissant|puissant1|poissant|POSSE||ADJ||Fem,Sing
 puisse|puisse|pöoir|POSSE||VERB|auxMod|Fin,Sub,Pres,1,Sing
+puisse|puisse1|pöoir|POSSE||VERB|auxMod|Fin,Sub,Pres,3,Sing
 pulcelle|pulcelle|pucele|*PULLICELLA||NOUN||Fem,Sing
 putain|putain|pute|PUTIDUS||NOUN||Fem,Sing
 qanqe|qanqe|cant2|QUANTUS||PRON||Ind,Neut,Sing,Acc
@@ -1135,12 +1143,14 @@ qe|qe|queque|QUID||PRON||Rel,Nom
 qe|qe1|queque|QUID||PRON||Rel,Acc
 qe|qe3|queque|QUID||SCONJ||
 qe|qe4|queque|QUID||PRON||Int,Neut,Sing,Acc
+qe|qe5|queque|QUID||||
 qel|qel|quel1|QUALIS||DET||Int,Fem,Sing
 qerre|qerre|querre|QUAERERE||VERB||Ind,Inf,Pres,Act,Trans
 qerroie|qerroie|querre|QUAERERE||VERB||Fin,Ind,Imp,Act,Trans,1,Sing
 qi|qi|qui|QUI||PRON||Rel,Nom
 qi|qi1|queque|QUID||SCONJ||
 qi|qi4|qui|QUI||PRON||Int,Sing,Nom
+qi|qi5|qui|QUI||PRON||Int,Acc
 qistrent|qistrent|querre|QUAERERE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 qit|qit|quitter|QUIETUS||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 qitement|qitement|quitement|QUIETUS||ADV||Man
@@ -1153,13 +1163,14 @@ que|que1|queque|QUID||PRON||Rel,Acc
 qui|qui1|queque|QUID||SCONJ||
 quoi|quoi|coi2|QUID||PRON||Rel,Acc
 qu’|qu’|queque|QUID||PRON||Rel,Acc
+qu’|qu’2|queque|QUID||PRON||Rel,Nom
 q’|q’|queque|QUID||PRON||Rel,Acc
 q’|q’1|queque|QUID||SCONJ||
 q’|q’2|queque|QUID||PRON||Rel,Nom
 raenplir|raenplir|räemplir|IMPLERE||VERB||Ind,Inf,Pres,Act,Trans
 raison|raison|raison|RATIO||NOUN||Fem,Sing
 recoilli|recoilli|recoillir|COLLIGERE||VERB||Fin,Ind,Past,Rfl,3,Sing
-recoilli|recoilli2|recoillir|COLLIGERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
+recoilli|recoilli1|recoillir|COLLIGERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 recoillirent|recoillirent1|recoillir|COLLIGERE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 recoillis|recoillis1|recoillir|COLLIGERE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
 recreanment|recreanment|recreanment|CREDERE||ADV||Man
@@ -1176,7 +1187,7 @@ rendre|rendre|rendre|REDDERE||VERB||Ind,Inf,Pres,Act,Trans
 rendre|rendre1|rendre|REDDERE||VERB|Noun|Ind,Inf,Pres
 rendés|rendés|rendre|REDDERE||VERB||Fin,Ind,Pres,Act,Trans,2,Plur
 renoiés|renoiés|renoiier1|*RENEGARE||VERB|Adj|Ind,Part,Past,Sing,Masc
-rent|rent|renc|HRING||NOUN||Masc,Sing,Acc
+rent|rent1|rendre|REDDERE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
 repaire|repaire|repaire|REPATRIARE||NOUN||Masc,Sing,Acc
 repairerent|repairerent|repairier|REPATRIARE||VERB||Fin,Ind,Past,Intr,3,Plur
 repairiés|repairiés1|repairier|REPATRIARE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
@@ -1220,7 +1231,7 @@ rues|rues|rüe2|RUGA||NOUN||Fem,Plur
 ruine|ruine|rüine|RUINA||NOUN||Fem,Sing
 sa|sa|suen|SUUS||DET||Poss,Fem,Sing
 sa|sa2|ça|HAC||ADV||Loc
-sache|sache|savoir|SAPERE||VERB||Fin,Sub,Pres,Intr,3,Sing
+sache|sache2|savoir|SAPERE||VERB|auxMod|Fin,Sub,Pres,3,Sing
 sachés|sachés|savoir|SAPERE||VERB||Fin,Sub,Pres,Act,Trans,2,Plur
 sacrifices|sacrifices|sacrefise|SACRIFICIUM||NOUN||Masc,Sing,Acc
 sai|sai|savoir|SAPERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
@@ -1228,10 +1239,10 @@ saillent|saillent|salir1|SALIRE||VERB||Fin,Sub,Pres,Intr,3,Plur
 sailli|sailli|salir1|SALIRE||VERB||Fin,Ind,Past,Intr,3,Sing
 sairement|sairement|sairement|SACRAMENTUM||NOUN||Masc,Sing,Acc
 saje|saje|sage|SAPIDUS||ADJ||Masc,Sing,Nom
-saje|saje3|sage|SAPIDUS||ADJ||Fem,Sing
 sajement|sajement|sagement|SAPIDUS||ADV||Man
 sajes|sajes|sage|SAPIDUS||ADJ||Masc,Plur,Acc
 sajes|sajes1|sage|SAPIDUS||ADJ||Masc,Sing,Acc
+sajes|sajes2|sage|SAPIDUS||ADJ||Masc,Plur,Nom
 salemine|salemine|Salemine|||PROPN||Fem,Sing
 salu|salu|salu|SALUS||NOUN||Masc,Sing,Acc
 salua|salua|salüer|SALUTARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
@@ -1243,6 +1254,7 @@ savoient|savoient|savoir|SAPERE||VERB||Fin,Ind,Imp,Act,Trans,3,Plur
 savoir|savoir|savoir|SAPERE||VERB|Noun|Ind,Inf,Pres
 savoir|savoir1|savoir|SAPERE||VERB||Ind,Inf,Pres,Act,Trans
 savoit|savoit1|savoir|SAPERE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
+savoit|savoit2|savoir|SAPERE||VERB||Fin,Ind,Imp,Intr,3,Sing
 savons|savons|savoir|SAPERE||VERB||Fin,Ind,Pres,Act,Trans,1,Sing
 savrés|savrés|savoir|SAPERE||VERB||Fin,Ind,Fut,Act,Trans,2,Plur
 savés|savés|savoir|SAPERE||VERB||Fin,Ind,Pres,Act,Trans,2,Plur
@@ -1254,7 +1266,7 @@ se|se4|ce1|HOC||PRON||Dem,Neut,Sing,Acc
 se_qe|se_qe|ce1|HOC||PRON|Pron|Dem,Neut,Sing,Acc,MWEs
 secore|secore|secorre1|SUCCURRERE||VERB||Ind,Inf,Pres,Act,Trans
 seignor|seignor|seignor|SENIOR||NOUN||Masc,Sing,Acc
-seignor|seignor2|seignor|SENIOR||NOUN||Masc,Plur,Nom
+seignor|seignor1|seignor|SENIOR||NOUN||Masc,Sing,Nom
 seignorie|seignorie|seignorie|SENIOR||NOUN||Fem,Sing
 seignors|seignors|seignor|SENIOR||NOUN||Masc,Plur,Nom
 sejorna|sejorna|sejorner|*SUBDIURNARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
@@ -1266,14 +1278,12 @@ senbla|senbla|sembler|SIMILARE||VERB||Fin,Ind,Past,Intr,3,Sing
 senbloit|senbloit|sembler|SIMILARE||VERB||Fin,Ind,Imp,Intr,3,Sing
 sens|sens|sens|SENSUS||NOUN||Masc,Sing,Acc
 sera|sera1|estre1|ESSE||VERB|auxPass|Fin,Ind,Fut,3,Sing,MWEs
-sera|sera2|estre1|ESSE||VERB|auxTens|Fin,Ind,Fut,3,Sing,MWEs
 sera|sera3|estre1|ESSE||VERB|auxCop|Fin,Ind,Fut,3,Sing
 sereors|sereors|seror|SOROS||NOUN||Fem,Plur
 sergant|sergant|serjant|SERVIENS||NOUN||Masc,Plur,Acc
 seroit|seroit|estre1|ESSE||VERB|auxPass|Fin,Cnd,Pres,3,Sing,MWEs
 seroit|seroit1|estre1|ESSE||VERB|auxCop|Fin,Cnd,Pres,3,Sing
 serons|serons|estre1|ESSE||VERB|auxPass|Fin,Ind,Fut,1,Plur,MWEs
-seront|seront1|estre1|ESSE||VERB||Fin,Ind,Fut,Intr,3,Plur
 seront|seront2|estre1|ESSE||VERB|auxCop|Fin,Ind,Fut,3,Plur
 serors|serors|seror|SOROR||NOUN||Fem,Plur
 seroumes|seroumes|estre1|ESSE||VERB|auxPass|Fin,Cnd,Pres,1,Plur,MWEs
@@ -1293,17 +1303,19 @@ si|si2|ici|HIC||ADV||Loc
 si|si3|ce1|HOC||PRON||Dem,Neut,Sing,Acc
 si_com|si_com|si|SIC||ADV|SConj |MWEs
 si_come|si_come|si|SIC||ADV|SConj |MWEs
+si_qe|si_qe||||||
 sien|sien|suen|SUUS||DET||Poss,Masc,Sing,Acc
 sien|sien1|suen|SUUS||DET||Poss,Fem,Sing
 sigler|sigler|sigler|CINGLER2||VERB||Ind,Inf,Pres,Intr
 siglerent|siglerent|sigler|CINGLER2||VERB||Fin,Ind,Past,Intr,3,Plur
 sire|sire|seignor|SENIOR||NOUN||Masc,Sing,Nom
 soi|soi|soi1|SE||PRON||Prs,3,Acc
-soient|soient1|estre1|ESSE||VERB|auxPass|Fin,Sub,Pres,3,Plur,MWEs
+soient|soient2|estre1|ESSE||VERB|auxCop|Fin,Sub,Pres,3,Plur
 soignantaje|soignantaje|soignantage|*SUNNI||NOUN||Masc,Sing,Acc
 soit|soit|estre1|ESSE||VERB||Fin,Sub,Pres,Intr,3,Sing
 soit|soit1|estre1|ESSE||VERB|auxTens|Fin,Sub,Pres,3,Sing,MWEs
 soit|soit2|estre1|ESSE||VERB|auxPass|Fin,Sub,Pres,3,Sing,MWEs
+soit|soit3|estre1| ESSE||VERB|auxCop|Fin,Sub,Pres,3,Sing
 soiés|soiés|estre1|ESSE||VERB|auxPass|Fin,Sub,Pres,2,Plur,MWEs
 soiés|soiés1|estre1|ESSE||VERB|auxCop|Fin,Sub,Pres,2,Plur
 son|son|suen|SUUS||DET||Poss,Masc,Sing,Nom
@@ -1318,8 +1330,8 @@ sorire|sorire|sorire|SUBRIDERE||VERB||Ind,Inf,Pres,Intr
 sors|sors1|sort2|SORS||NOUN||Fem,Plur
 sot|sot|savoir|SAPERE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 soufroit|soufroit|sofrir|SUFFERRE||VERB||Fin,Ind,Imp,Act,Trans,3,Sing
-soumes|soumes1|estre1|ESSE||VERB|auxTens|Fin,Ind,Pres,1,Plur,MWEs
-soumes|soumes2|estre1|ESSE||VERB|auxPass|Fin,Ind,Pres,1,Plur,Masc
+soumes|soumes2|estre1|ESSE||VERB|auxPass|Fin,Ind,Pres,1,Plur,MWEs
+soumes|soumes3|estre1|ESSE||VERB|auxCop|Fin,Ind,Pres,1,Plur
 soutilment|soutilment|sotilment|SUBTILIS||ADV||Man
 sovent|sovent|sovent|SUBINDE||ADV||
 soë|soë|sien|SUUS||DET||Poss,Fem,Sing
@@ -1327,16 +1339,18 @@ soëf|soëf|söef|SUAVIS||ADJ||Masc,Sing,Nom
 soëf|soëf1|söef|SUAVIS||ADJ||Fem,Sing
 subesion|subesion|subjectïon|SUBJECTIO||NOUN||Fem,Sing
 sui|sui|estre1|ESSE||VERB||Fin,Ind,Pres,Intr,1,Sing
-sui|sui3|estre1|ESSE||VERB|auxPass|Fin,Ind,Pres,1,Sing,MWEs
+sui|sui1|estre1|ESSE||VERB|auxCop|Fin,Ind,Pres,1,Sing
 suor|suor|seror|SOROR||NOUN||Fem,Sing
 suor|suor1|seror|SOROR||NOUN||Fem,Plur
 s’|s’|soi|SE||PRON||Prs,3,Sing,Acc
+s’|s’1|soi|SE||PRON||Prs,3,Plur,Acc
+s’|s’3|se|SI||SCONJ||
 taisant|taisant|taire|TACERE||VERB||Ind,Part,Pres,Intr
 talemon|talemon|Talemon|||PROPN||Masc,Sing,Nom
 talemon|talemon1|Talemon|||PROPN||Masc,Sing,Acc
 tant|tant|tant|TANTUS||ADV||
-tant_com|tant_com||||||
-tant_de|tant_de||||||
+tant_com|tant_com|tant|TANTUS||ADV|Adv|MWEs
+tant_de|tant_de|tant|TANTUS||ADV|Adv|MWEs
 tant_qi|tant_qi|tant|TANTUS||ADV|SConj |MWEs
 tant_q’|tant_q’|tant|TANTUS||ADV|SConj |MWEs
 tantost|tantost|tantost|TOSTUS||ADV||
@@ -1369,23 +1383,25 @@ tierce|tierce1|tierz|TERTIUS||NUM||Ord
 tierse|tierse|tierz|TERTIUS||NUM||Ord
 titareens|titareens||||||
 toi|toi|toi|TE||PRON||Prs,2,Sing,Acc
-ton|ton1|ton4|TUUS||DET||Poss,Masc,Sing,Nom
-tors|tors1|tort2|TORQUERE||NOUN||Masc,Plur,Acc
+ton|ton|ton4|TUUS||DET||Poss,Masc,Sing,Acc
+tors|tors|tor2|TURRIS||NOUN||Fem,Plur
 tos|tos|tot|TOTUS||DET||Ind,Masc,Sing,Nom
 tos|tos1|tot|TOTUS||DET||Ind,Masc,Plur,Acc
+tos|tos10||||||
 tos|tos2|tot|TOTUS||DET||Ind,Masc,Sing,Acc
 tos|tos3|tot|TOTUS||ADV||
 tos|tos4|tot|TOTUS||PRON||Ind,Masc,Plur,Nom
-tos|tos6|tot|TOTUS||PRON||Ind,Masc,Sing,Acc
 tos|tos7|tot|TOTUS||DET||Ind,Masc,Plur,Nom
 tos|tos8|tot|TOTUS||DET||Ind,Fem,Plur
-tos|tos9|tot|TOTUS||PRON||Ind,Masc,Sing,Nom
+tos_ensi_com|tos_ensi_com|ainsi|SIC||ADV|SConj |MWEs
 tost|tost|tost|TOSTUS||ADV||
 tot|tot|tot|TOTUS||DET||Ind,Masc,Sing,Nom
 tot|tot1|tot|TOTUS||DET||Ind,Masc,Plur,Acc
+tot|tot10|tot|TOTUS||DET||Ind,Neut,Sing,Acc
 tot|tot3|tot|TOTUS||DET||Ind,Masc,Sing,Acc
 tot|tot4|tot|TOTUS||ADV||
 tot|tot9|tot|TOTUS||PRON||Ind,Neut,Sing,Nom
+tot_autretel|tot_autretel|autretel|TALIS||ADV|Adv|Ind,MWEs
 tot_ce|tot_ce1|tot|TOTUS||DET|Pron|Ind,Neut,Sing,Acc,MWEs
 tot_ce_qe|tot_ce_qe|tot|TOTUS||DET|SConj |Ind,Neut,Sing,MWEs
 tot_ce_q’|tot_ce_q’|tot|TOTUS||DET|SConj |Ind,Neut,Sing,MWEs
@@ -1410,16 +1426,18 @@ troiens|troiens1|troyen|TROJANUS||ADJ|Noun|Masc,Plur,Acc
 trois|trois|trois1|TRES||NUM||Ord
 troiz|troiz|trois1|TRES||NUM||Ord
 trop|trop|trop|THORP||ADV||
+trop_de|trop_de|trop|THORP||ADV|Adv|MWEs
 trova|trova|trover|*TROPARE||VERB||Fin,Ind,Past,Act,Trans,3,Sing
 trovai|trovai|trover|*TROPARE||VERB||Fin,Ind,Past,Act,Trans,1,Sing
 trovera|trovera|trover|*TROPARE||VERB||Fin,Ind,Fut,Act,Trans,3,Sing
 troverent|troverent|trover|*TROPARE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
 trovons|trovons|trover|*TROPARE||VERB||Fin,Ind,Pres,Act,Trans,1,Plur
-trovés|trovés1|trover|*TROPARE||VERB|compPass|Ind,Part,Past,Plur,Masc,MWEs
+trovés|trovés|trover|*TROPARE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
 très|très|très|TRANS||ADV||Deg
 tu|tu|tu|TU||PRON||Prs,2,Sing,Nom
 un|un|un|UNUS||DET||ArtIndef,Masc,Sing
 une|une|un|UNUS||DET||ArtIndef,Fem,Sing
+une|une1|un|UNUS||PRON||Ind,Fem,Sing
 vaillans|vaillans|valoir|VALERE||VERB|Adj|Ind,Part,Pres
 vaillant|vaillant|valoir|VALERE||VERB|Adj|Ind,Part,Pres
 vaillanz|vaillanz|valoir|VALERE||VERB|Adj|Ind,Part,Pres
@@ -1450,7 +1468,7 @@ verité|verité|verité|VERITAS||NOUN||Fem,Sing
 vers|vers|vers2|VERSUS1||ADP||
 versier|versier|vergier1|VIRIDIARIUM||NOUN||Masc,Sing,Acc
 vesqui|vesqui|vivre1|VIVERE||VERB||Fin,Ind,Past,Intr,3,Sing
-vestus|vestus1|vestir|VESTIRE||VERB|compPass|Ind,Part,Past,Sing,Masc,MWEs
+vestus|vestus2|vestir|VESTIRE||VERB|Adj|Ind,Part,Past,Sing,Masc
 veü|veü|vëoir|VIDERE||VERB|compTens|Ind,Part,Past,Sing,Masc,MWEs
 vi|vi|vëoir|VIDERE||VERB||Fin,Ind,Past,Act,Trans,1,Sing
 viandes|viandes1|vïande|VIVENDA||NOUN||Fem,Plur
@@ -1479,7 +1497,7 @@ vois|vois1|voiz|VOX||NOUN||Fem,Sing
 voit|voit|vëoir|VIDERE||VERB||Fin,Ind,Pres,Act,Trans,3,Sing
 voler|voler|voler|VOLARE||VERB||Ind,Inf,Pres,Act,Trans
 voloie|voloie1|voloir|VELLE||VERB|auxMod|Fin,Ind,Imp,1,Sing
-voloient|voloient1|voloir|VELLE||VERB||Fin,Ind,Imp,Act,Trans,3,Plur
+voloient|voloient|voloir|VELLE||VERB|auxMod|Fin,Ind,Imp,3,Plur,MWEs
 voloit|voloit1|voloir|VELLE||VERB|auxMod|Fin,Ind,Imp,3,Sing
 volontiers|volontiers|volentiers|VOLUNTARIUS||ADV||Man
 volontos|volontos1|volentos|VOLUNTAS||ADJ||Masc,Plur,Acc
@@ -1495,7 +1513,7 @@ vostre|vostre2|vostre|VESTER||DET||Poss,Fem,Sing
 vostre|vostre3|vostre|VESTER||DET||Poss,Fem,Plur
 vostre|vostre6|vostre|VESTER||DET||Poss,Masc,Plur,Nom
 vostre|vostre7|vostre|VESTER||DET||Poss,Masc,Plur,Acc
-vostrent|vostrent1|voloir|VELLE||VERB||Fin,Ind,Past,Act,Trans,3,Plur
+vostrent|vostrent2|voloir|VELLE||VERB||Fin,Ind,Past,Intr,3,Plur
 voudra|voudra|voloir|VELLE||VERB|auxMod|Fin,Ind,Fut,3,Sing
 voudront|voudront|voloir|VELLE||VERB|auxMod|Fin,Ind,Fut,3,Plur
 voustrent|voustrent|voloir|VELLE||VERB|auxMod|Fin,Ind,Past,3,Plur
@@ -1508,3 +1526,5 @@ vuoill|vuoill|voloir|VELLE||VERB|auxMod|Fin,Ind,Pres,1,Sing
 xxii|xxii||||||
 ·l|·l|il|ILLE||PRON||Prs,3,Plur,Nom
 à|à|a3|AD||ADP||
+à_aise|à_aise|aise|ADJACENS||NOUN|Adv|Masc,Sing
+à_l_encontre|à_l_encontre|encontre2|CONTRA||NOUN|Adv|Fem,Sing
