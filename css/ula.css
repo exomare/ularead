@@ -142,7 +142,7 @@ body {
   background: #e5e4cb;
   overflow-y: auto;
   overflow-x: auto;
-  scrollbar-color: #b1215c #b1af66;
+  scrollbar-color: #284f6d #b1af66;
 }
 body div.wait {
   display: none;
@@ -182,7 +182,7 @@ body.wait div.wait div.circle {
 input {
   margin: 0 0 0 2px;
   background: #d3d3aa;
-  color: #1a0000;
+  color: #0d1922;
   border: 1px solid #d3d3aa;
   font-style: normal;
   font-weight: normal;
@@ -194,13 +194,13 @@ input {
 }
 input:hover {
   background: #ffffff;
-  color: #1a0000;
-  border: 1px solid #e60000;
+  color: #0d1922;
+  border: 1px solid #4385b8;
 }
 input:focus {
   background: #ffffff !important;
-  color: #1a0000;
-  border: 1px solid #e60000;
+  color: #0d1922;
+  border: 1px solid #4385b8;
 }
 input:active {
   background: #e6e6e6;
@@ -213,16 +213,16 @@ div.msg {
   font-family: arial, verdana, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
-  background: #b1215c;
+  background: #4385b8;
   color: #ffffff;
-  border: 4px solid #b1215c;
+  border: 4px solid #4385b8;
   border-radius: 9px;
   z-index: 99 !important;
 }
 div.help {
   margin: 0;
   padding: 0;
-  background: #5b112f;
+  background: #0d1922;
   color: #ffffff;
   font-size: 17px;
   font-family: "Ties New Roman", Georgia, serif;
@@ -233,7 +233,7 @@ div.help {
 }
 div.help div.top_bar {
   cursor: move;
-  background: #b30000;
+  background: #366a92;
   text-align: right;
   padding: 0;
 }
@@ -255,7 +255,7 @@ div.help div.text {
   max-height: 600px;
   overflow-y: scroll;
   overflow-x: scroll;
-  scrollbar-color: #b1215c #b1af66;
+  scrollbar-color: #284f6d #b1af66;
 }
 div.help div.text div {
   font-size: inherit;
@@ -289,7 +289,7 @@ div.ula_input {
   margin: 0;
   padding: 0;
   background: #c2c188;
-  color: #1a0000;
+  color: #0d1922;
   border: 4px solid #53532b;
   border-radius: 9px;
   min-width: 200px;
@@ -303,7 +303,7 @@ div.ula_input div.cmd {
   flex: auto;
   margin: 0;
   padding: 0;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
 }
 div.ula_input div.cmd div {
@@ -318,7 +318,7 @@ div.ula_input div.cmd div:last-child {
   margin-right: 5px;
 }
 div.ula_input div.cmd div:hover {
-  background: #5b112f;
+  background: #366a92;
 }
 div.ula_input div.input_table {
   display: flex;
@@ -381,9 +381,9 @@ div.menu_bar ul li a {
   font-size: 17px;
   font-family: "Ties New Roman", Georgia, serif;
   font-weight: normal;
-  background: #8d053e;
+  background: #284f6d;
   color: #ffffff;
-  border-right: 1px solid #700202;
+  border-right: 1px solid #000000;
 }
 div.menu_bar ul li a.br {
   line-height: 1;
@@ -402,7 +402,7 @@ div.menu_bar ul li a.img img {
   width: 100%;
 }
 div.menu_bar ul li a:hover {
-  background: #2a0213;
+  background: #096f09;
   text-decoration: underline;
 }
 div.menu_bar ul li ul {
@@ -414,7 +414,7 @@ div.menu_bar ul li ul {
   z-index: 99;
 }
 div.menu_bar ul li ul li {
-  border-top: 1px solid #700202;
+  border-top: 1px solid #000000;
   width: 150px;
 }
 div.menu_bar ul li ul li a {
@@ -431,7 +431,7 @@ div.menu_bar ul li ul li ul {
   left: 100%;
 }
 div.menu_bar ul li ul li ul li {
-  border-top: 1px solid #700202;
+  border-top: 1px solid #000000;
 }
 div.menu_bar ul li ul li ul li a {
   min-width: 100%;
@@ -455,7 +455,11 @@ div.menu_bar ul li.h:hover ul.h {
   display: block !important;
 }
 div.menu_bar .title {
-  background: #088208;
+  background: #822a02;
+  color: #ffffff;
+}
+div.menu_bar .title:hover {
+  background: #b53b02;
   color: #ffffff;
 }
 div.ula_option {
@@ -470,7 +474,7 @@ div.ula_option div.cmd {
   cursor: move;
   margin: 0;
   padding: 0;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   display: flex;
   flex-direction: row;
@@ -491,7 +495,7 @@ div.ula_option div.cmd div.x:hover {
 div.ula_option div.d {
   cursor: pointer;
   background: #d3d3aa;
-  color: #1a0000;
+  color: #0d1922;
   padding: 2px 10px 2px 10px;
   margin: 0;
   font-family: arial, verdana, Helvetica, sans-serif;
@@ -504,7 +508,7 @@ div.ula_option div.d:nth-child(odd) {
   background: #b1af66;
 }
 div.ula_option div.d:hover {
-  background: #5b112f;
+  background: #366a92;
   color: #f6f6ed;
   text-decoration: underline;
   padding: 2px 0 2px 20px;
@@ -530,7 +534,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_rows_head_id table tr td {
   background: #b1af66;
-  color: #1a0000;
+  color: #0d1922;
   padding-left: 2px;
   font-size: 20px;
   font-family: arial, verdana, Helvetica, sans-serif;
@@ -562,7 +566,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_rows_head_id table tr td.find a {
   color: #f6f6ed;
-  background: #b1215c;
+  background: #284f6d;
   font-size: 20px;
   font-family: arial, verdana, Helvetica, sans-serif;
   font-weight: bold;
@@ -571,7 +575,7 @@ div.ula_option div.d:hover {
   text-decoration: none;
 }
 #lpmx_rows_head_id table tr td.find a:hover {
-  background: #5b112f;
+  background: #366a92;
   text-decoration: underline;
 }
 #lpmx_rows_head_id table td.l {
@@ -604,7 +608,7 @@ div.ula_option div.d:hover {
   margin: 0;
   overflow-y: scroll;
   overflow-x: auto;
-  scrollbar-color: green #97954d;
+  scrollbar-color: #284f6d #b1af66;
   scrollbar-width: auto;
 }
 #lpmx_rows_id table {
@@ -617,7 +621,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_rows_id table tr td {
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   margin: 0;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -641,7 +645,7 @@ div.ula_option div.d:hover {
   font-weight: normal;
   text-align: right;
   padding-right: 5px;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
@@ -717,11 +721,11 @@ div.ula_option div.d:hover {
 #lpmx_rows_id table tr.select td.ph,
 #lpmx_rows_id table tr.select td.fn,
 #lpmx_rows_id table tr.select td.m {
-  background: #5b112f !important;
+  background: #366a92 !important;
   color: #ffffff;
 }
 #lpmx_rows_id table tr.select td.n {
-  background: #008000 !important;
+  background: #096f09 !important;
 }
 #lpmx_rows_id table tr.hover td.f,
 #lpmx_rows_id table tr.hover td.k,
@@ -732,19 +736,19 @@ div.ula_option div.d:hover {
   background: #b1af66;
 }
 #lpmx_rows_id table tr.hover td.n {
-  background: #5b112f;
+  background: #366a92;
 }
 #lpmx_rows_id table tr.hover td.l input,
 #lpmx_rows_id table tr.hover td.e input {
   background: #b1af66;
 }
 #lpmx_rows_id table tr.bl td.n {
-  background: #004d00;
+  background: #096f09;
   animation: blinker 1s linear infinite !important;
 }
 #lpmx_rows_id table tr.empty td.f,
 #lpmx_rows_id table tr.empty td.k {
-  background: #cc0000;
+  background: #1a3448;
   color: wheat;
 }
 @keyframes blinker {
@@ -766,7 +770,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_pos_id table tr.h td {
   cursor: move;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   border: 1px solid #53532b;
   margin: 0;
@@ -780,7 +784,7 @@ div.ula_option div.d:hover {
 #lpmx_pos_id table tr.data td {
   cursor: pointer;
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   margin: 0;
   padding: 4px 5px 0 5px;
   font-size: 17px;
@@ -793,24 +797,24 @@ div.ula_option div.d:hover {
   border-color: #53532b;
 }
 #lpmx_pos_id table tr.data td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
 #lpmx_pos_id table tr.data td.select {
-  background: #5b112f;
+  background: #366a92;
   color: #ffffff;
 }
 #lpmx_pos_id table tr.data:nth-child(odd) td {
   background: #d3d3aa;
 }
 #lpmx_pos_id table tr.data:nth-child(odd) td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
 #lpmx_pos_id table tr.data:nth-child(odd) td.select {
-  background: #5b112f;
+  background: #366a92;
   color: #ffffff;
 }
 #lpmx_msd_id table {
@@ -823,7 +827,7 @@ div.ula_option div.d:hover {
 #lpmx_msd_id table thead tr th {
   cursor: move;
   border: 1px solid #53532b;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   text-align: center;
   padding: 2px 0 2px 0;
@@ -841,7 +845,7 @@ div.ula_option div.d:hover {
   display: none;
   padding: 0 5px 0 5px;
   margin: 0px auto 0px auto;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   font-size: 17px;
   font-family: arial, verdana, Helvetica, sans-serif;
@@ -854,10 +858,10 @@ div.ula_option div.d:hover {
 #lpmx_msd_id table thead tr th a:hover {
   font-style: italic;
   padding: 0 20px 0 20px;
-  background: #5b112f;
+  background: #366a92;
 }
 #lpmx_msd_id table thead tr.select th {
-  background: #b1215c;
+  background: #284f6d;
 }
 #lpmx_msd_id table thead tr.select th span.a {
   display: none;
@@ -871,7 +875,7 @@ div.ula_option div.d:hover {
 #lpmx_msd_id table tbody tr td {
   cursor: pointer;
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   margin: 2px 0 2px 0;
   padding: 5px 5px 5px 5px;
   font-size: 17px;
@@ -884,24 +888,24 @@ div.ula_option div.d:hover {
   border-color: #53532b;
 }
 #lpmx_msd_id table tbody tr td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
 #lpmx_msd_id table tbody tr td.select {
-  background: #5b112f;
+  background: #366a92;
   color: #ffffff;
 }
 #lpmx_msd_id table tbody tr:nth-child(odd) td {
   background: #d3d3aa;
 }
 #lpmx_msd_id table tbody tr:nth-child(odd) td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
 #lpmx_msd_id table tbody tr:nth-child(odd) td.select {
-  background: #5b112f;
+  background: #366a92;
   color: #ffffff;
 }
 #lpmx_phon_id table {
@@ -913,7 +917,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_phon_id table tr.h td {
   cursor: move;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   border: 1px solid #53532b;
   margin: 0;
@@ -927,7 +931,7 @@ div.ula_option div.d:hover {
 #lpmx_phon_id table tr.d td {
   cursor: pointer;
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   margin: 0;
   padding: 4px 0 0 0;
   font-size: 17px;
@@ -940,7 +944,7 @@ div.ula_option div.d:hover {
   border-color: #53532b;
 }
 #lpmx_phon_id table tr.d td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
@@ -948,7 +952,7 @@ div.ula_option div.d:hover {
   background: #d3d3aa;
 }
 #lpmx_phon_id table tr.d:nth-child(odd) td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
@@ -961,7 +965,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_funct_id table tr.h td {
   cursor: move;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   border: 1px solid #53532b;
   margin: 0;
@@ -977,7 +981,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_funct_id table tr.d td {
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   margin: 0;
   padding: 4px 0 0 0;
   font-size: 17px;
@@ -990,7 +994,7 @@ div.ula_option div.d:hover {
   border-color: #53532b;
 }
 #lpmx_funct_id table tr.d td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
@@ -998,7 +1002,7 @@ div.ula_option div.d:hover {
   background: #d3d3aa;
 }
 #lpmx_funct_id table tr.d:nth-child(odd) td:hover {
-  background: #b1215c;
+  background: #4385b8;
   color: #f6f6ed;
   text-decoration: underline;
 }
@@ -1011,9 +1015,9 @@ div.ula_option div.d:hover {
   padding: 0 0 0 0;
   max-height: 30px;
   min-height: 30px;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
-  border-top: 1px solid #b1215c;
+  border-top: 1px solid #284f6d;
   font-size: 17px;
   font-family: arial, verdana, Helvetica, sans-serif;
   display: flex;
@@ -1024,15 +1028,15 @@ div.ula_option div.d:hover {
   margin: 0;
   padding: 5px 5px 0 5px;
   vertical-align: bottom;
-  background: #004d00;
+  background: #096f09;
   font-size: 17px;
   font-family: arial, verdana, Helvetica, sans-serif;
   font-weight: bold;
 }
 #lpmx_context_id div.cmd div.add.inactive,
 #lpmx_context_id div.cmd div.del.inactive {
-  color: #e05890;
-  background: #e05890 !important;
+  color: #4385b8;
+  background: #4385b8 !important;
 }
 #lpmx_context_id div.cmd div {
   margin: 0 0 0 20px;
@@ -1048,7 +1052,7 @@ div.ula_option div.d:hover {
   margin: 0;
 }
 #lpmx_context_id div.cmd div a:hover {
-  background: #5b112f;
+  background: #366a92;
   text-decoration: underline;
 }
 #lpmx_context_id div.cmd div span {
@@ -1070,8 +1074,8 @@ div.ula_option div.d:hover {
   color: #c2c188;
 }
 #lpmx_context_id div.cmd div select:hover {
-  background: #008000;
-  color: #008000;
+  background: #096f09;
+  color: #096f09;
 }
 #lpmx_context_id div.cmd div select:focus {
   outline: none;
@@ -1085,20 +1089,20 @@ div.ula_option div.d:hover {
   text-align: left;
   overflow-y: scroll;
   overflow-x: auto;
-  scrollbar-color: #b1215c #b1af66;
+  scrollbar-color: #284f6d #b1af66;
   line-height: 1;
   font-size: 20px;
   background: #e5e4cb;
-  border-bottom: 1px solid #1a0000;
-  border-left: 1px solid #1a0000;
-  border-right: 1px solid #1a0000;
+  border-bottom: 1px solid #0d1922;
+  border-left: 1px solid #0d1922;
+  border-right: 1px solid #0d1922;
 }
 #lpmx_context_id div.rows div.row {
   text-align: left;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #1a0000;
-  border-right: 1px solid #1a0000;
+  border-bottom: 1px solid #0d1922;
+  border-right: 1px solid #0d1922;
   font-size: 17px;
   font-family: arial, verdana, Helvetica, sans-serif;
   font-weight: normal;
@@ -1114,7 +1118,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_context_id div.rows div.row span.form {
   background: #ffffff;
-  color: #990000;
+  color: #0d1922;
   margin: 0 5px 0 5px;
   padding: 0 5px 0 5px;
   font-size: 17px;
@@ -1122,7 +1126,7 @@ div.ula_option div.d:hover {
   font-weight: bold;
 }
 #lpmx_context_id div.rows div.row span.form.select {
-  background: #e60000;
+  background: #4385b8;
   color: #ffffff;
 }
 #lpmx_context_id div.rows div.row:nth-child(odd) {
@@ -1141,7 +1145,7 @@ div.ula_option div.d:hover {
   text-decoration: underline;
 }
 #lpmx_omogr_id {
-  border: 1px solid #004d00;
+  border: 1px solid #096f09;
   position: relative;
   min-width: 700px;
   max-width: 700px;
@@ -1150,7 +1154,7 @@ div.ula_option div.d:hover {
   cursor: move;
   padding: 0;
   margin: 0;
-  background: #004d00;
+  background: #096f09;
   color: white;
   text-align: center;
   font-size: 13px;
@@ -1166,7 +1170,7 @@ div.ula_option div.d:hover {
 }
 #lpmx_omogr_id table tr.data td {
   background: #f6f6ed;
-  color: #1a0000;
+  color: #0d1922;
   border-width: 1px;
   border-style: solid;
   border-color: #53532b;
@@ -1225,7 +1229,7 @@ div.ula_option div.d:hover {
   line-height: 1;
   overflow-y: scroll;
   overflow-x: auto;
-  scrollbar-color: #b1215c #b1af66;
+  scrollbar-color: #284f6d #b1af66;
 }
 #text_rows_id div.row {
   margin: 0;
@@ -1248,12 +1252,12 @@ div.ula_option div.d:hover {
   font-weight: normal;
   padding: 5px 5px 3px 0;
   margin: 0;
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
 }
 #text_rows_id div.row div.text {
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   min-width: 1000px;
   max-width: 1000px;
   border-width: 0 1px 1px 1px;
@@ -1273,13 +1277,13 @@ div.ula_option div.d:hover {
   background: #ffffff;
 }
 #text_rows_id div.row div.text span.t {
-  color: #990000;
+  color: #0d1922;
 }
 #text_rows_id div.row div.text span.l {
-  color: #008000;
+  color: #0d9e0d;
 }
 #text_rows_id div.row div.select {
-  background: #008000;
+  background: #096f09;
   text-decoration: underline;
   text-align: left;
 }
@@ -1290,31 +1294,31 @@ div.ula_option div.d:hover {
   background: #c2c188;
 }
 #text_rows_id div.row:hover div.n {
-  background: #5b112f;
+  background: #366a92;
 }
 #text_rows_id div.row:hover div.n.select {
   cursor: pointer;
   font-style: italic;
   text-decoration: underline;
   text-align: left;
-  background: #008000;
+  background: #096f09;
 }
 #text_row_id {
-  border: 4px solid #b1215c;
+  border: 4px solid #284f6d;
 }
 #text_row_id div.cmd {
   position: relative;
   padding: 0;
   margin: 0;
-  background: #b1215c;
+  background: #284f6d;
   cursor: move;
   display: flex;
   flex-direction: row;
 }
 #text_row_id div.cmd button {
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
-  border-color: #b1215c;
+  border-color: #284f6d;
   border-style: solid;
   border-width: 1px;
   padding: 0 10px 0 10px;
@@ -1324,7 +1328,7 @@ div.ula_option div.d:hover {
   font-family: arial, verdana, Helvetica, sans-serif;
 }
 #text_row_id div.cmd button:hover {
-  background: #5b112f;
+  background: #366a92;
   font-style: italic;
   text-decoration: underline;
 }
@@ -1340,7 +1344,7 @@ div.ula_option div.d:hover {
 }
 #text_row_id table tr.h th {
   background: #b1af66;
-  color: #1a0000;
+  color: #0d1922;
   border-right: 1px solid #53532b;
   margin: 0;
   padding: 0;
@@ -1356,11 +1360,11 @@ div.ula_option div.d:hover {
 #text_row_id table tr.h th.to {
   font-weight: bold;
   background: #b1af66;
-  color: #1a0000;
+  color: #0d1922;
 }
 #text_row_id table tr.data td {
   background: #e5e4cb;
-  color: #1a0000;
+  color: #0d1922;
   border-width: 1px;
   border-style: solid;
   border-color: #53532b;
@@ -1378,11 +1382,11 @@ div.ula_option div.d:hover {
   width: 30px;
   text-align: center;
   background: #d3d3aa;
-  color: #1a0000;
+  color: #0d1922;
 }
 #text_row_id table tr.data td.tofk:hover,
 #text_row_id table tr.data td.tocn:hover {
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   text-decoration: underline;
 }
@@ -1415,7 +1419,7 @@ div.ula_option div.d:hover {
   font-family: arial, verdana, Helvetica, sans-serif;
 }
 #text_row_id table tr.data td.find {
-  background: #b1215c;
+  background: #284f6d;
   color: #f6f6ed;
   font-weight: bold;
   text-decoration: underline;

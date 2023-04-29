@@ -24,13 +24,10 @@
 
 // @fserif: "Ties New Roman", Times, Georgia, serif;
 @fserif: "Ties New Roman", Georgia, serif;
-
 @fsans: arial, verdana, Helvetica, sans-serif;
-
 .serif {
   font-family: "Ties New Roman", Georgia, serif;
 }
-
 .sans {
   font-family: arial, verdana, sans-serif;
 }
@@ -134,14 +131,14 @@ body.wait {
     left: 40%;
     border-radius: 50%;
     background: inherit;
-    border: 2px solid #3a55f1;
+    border: 2px solid @color_wait;
 
     div.circle {
       width: 150px;
       height: 150px;
       clip-path: inset(0 75px 75px 0);
       border-radius: 50%;
-      background: #3a55f1;
+      background: @color_wait;
       animation-name: wait;
       animation-duration: 2s;
       animation-timing-function: linear;
@@ -178,7 +175,7 @@ input:hover {
 }
 
 input:focus {
-  background: @inp_hover_back  !important;
+  background: @inp_hover_back !important;
   color: @inp_hover_color;
   border: 1px solid @inp_hover_border_color;
 }
@@ -273,6 +270,7 @@ div.help {
 
     hr {
       width: 300px;
+      //AAA
       color: red;
     }
   }
@@ -354,23 +352,14 @@ div.ula_input {
   }
 }
 
-// @color0:  #406882;
-// @color0: #300919;
-// @color0: #b1215c;
-@colorm0: #8d053e;
-@menu_bck: @colorm0;
-@menu_hover_bck: darken(@menu_bck, 20%);
-// @menu_border_bck: darken(@menu_bck, 20%);
-@menu_border_bck: #700202;
-@menu_color: #ffffff;
 @font_menu: 17px;
 @menu_height: 25px;
 @menu_sub_top: 26px;
 
 div.menu_bar {
   width: 100%;
-  min-height: @menu_height  !important;
-  max-height: @menu_height  !important;
+  min-height: @menu_height !important;
+  max-height: @menu_height !important;
 
   ul {
     display: flex;
@@ -493,9 +482,15 @@ div.menu_bar {
   }
 
   .title {
-    background: #088208;
-    color: #ffffff;
+    background:darken(@color4,30%);
+    color: darken(@color3,0);
   }
+
+  .title:hover {
+    background:darken(@color4,20%);
+    color: darken(@color3,0);
+  }
+
 }
 
 /////////////////
@@ -673,8 +668,7 @@ div.ula_option {
   margin: 0;
   overflow-y: scroll;
   overflow-x: auto;
-  //scrollbar-color: @cmd_back @head_back;
-  scrollbar-color: green darken(@head_back, 10%);
+  scrollbar-color: @scroll_bar1 @scroll_bar2;
   scrollbar-width: auto;
 
   table {
@@ -760,7 +754,7 @@ div.ula_option {
       }
 
       td.ph {
-        //PHON LANG
+        //LANG
         min-width: 50px;
         max-width: 50px;
         font-size: @font_text2;
@@ -793,7 +787,6 @@ div.ula_option {
     }
 
     tr:nth-child(odd) {
-
       td.f,
       td.k,
       td.m,
@@ -812,7 +805,6 @@ div.ula_option {
     }
 
     tr.select {
-
       td.f,
       td.k,
       td.m,
@@ -820,17 +812,16 @@ div.ula_option {
       td.ph,
       td.fn,
       td.m {
-        background: @cell_jshover_back  !important;
+        background: @cell_jshover_back !important;
         color: @cell_jshover_color;
       }
 
       td.n {
-        background: @row_num_select_back  !important;
+        background: @row_num_select_back !important;
       }
     }
 
     tr.hover {
-
       td.f,
       td.k,
       td.m,
@@ -860,7 +851,6 @@ div.ula_option {
     }
 
     tr.empty {
-
       td.f,
       td.k {
         background: @form_empty;
@@ -1279,10 +1269,11 @@ div.ula_option {
       }
 
       select:hover {
+        //AAA
         // background: darken(@cmd_back, 10%);
         // color: darken(@cmd_back, 10%);
-        background: darken(green, 0%);
-        color: darken(green, 0%);
+        background: darken(@color5, 10%);
+        color: darken(@color5, 10%);
         // color: white;
         // border: 1px solid white;
       }

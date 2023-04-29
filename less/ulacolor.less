@@ -1,115 +1,107 @@
-@color0: #c2c188; //yellow1
-@color_0a: lighten(@color0, 10%);
-@color_0b: lighten(@color0, 20%);
-@color_0c: lighten(@color0, 30%);
-@color_0d: lighten(@color0, 40%);
-@color_0x: darken(@color0, 10%);
-@color_0z: darken(@color0, 40%);
-//
-@color1: #800000; //maroon1
-@color_1a: lighten(@color1, 10%);
-@color_1b: lighten(@color1, 20%);
-@color_1x: darken(@color1, 20%);
-//
-@color2: #300919; //purple
-@color_2a: lighten(@color2, 10%);
-@color_2b: lighten(@color2, 30%);
-//
-@color3: #ffffff;
-//@color_3a: lighten(@color3, 0%);
-@color_3x: darken(@color3, 10%);
-//
-@color4: #ff0000;
-@color_4x: darken(@color4, 10%);
-@color_4y: darken(@color4, 20%);
-//
-@color5: green;
-//@color_5a: lighten(@color5, 20%);
-@color_5x: darken(@color5, 0%);
-@color_5y: darken(@color5, 10%);
+@colorx:red;
+@colory:rgb(16, 242, 253);
 
-//@color6: #4438f0;
-@color6:blue;
-@color_6x: darken(@color6, 10%);
+@color_wait:#3a55f1;
+
+@color0: #c2c188;
+
+// @color1: #406882; 
+@color1:  #284f6d; 
+; 
+
+// @color1: #800000; //maroon1
+
+// @color2: #300919; //purple
+@color3: #ffffff;
+
+@color4: #fc6621;
+// @color4: #ff0000;
+
+@color5: #0d9e0d;
 
 ////////////////////////////////
-@html_back: @color_0b;
+@html_back: lighten(@color0,20%);
+
 //msg
-@msg_back: @color_2b;
+@msg_back: lighten(@color1,20%);
 @msg_color: @color3;
-@msg_border_color: @color_2b;
+@msg_border_color: lighten(@color1,20%);
+
 //help
-@help_head_back: @color_1a;
+@help_head_back: lighten(@color1,10%);
 @help_head_color: @color3;
-@help_back: @color_2a;
+@help_back: darken(@color1,20%);
 @help_color: @color3;
+
 //menu  orizontale
-@mh_back: @color_2a;
-@mh_color: @color_0c;
-@mh_hover_back: @color_2a;
-@mh_hover_color: @color_0c;
-@mh_active_back: lighten(@mh_hover_back, 10%);
-@mh_used_back: lighten(@mh_hover_back, 15%);
-@mn_title_back: darken(@color5,0%);
-//menu verticale
-@mv_back: @color_2b;
-@mv_color: @color_0c;
-@mv_hover_back: @color_2a;
-@mv_hover_color: @color_0c;
-// text
-@text_back: @color_0b;
-@text_color: @color_1x;
+@menu_bck: @color1;
+// @menu_hover_bck: darken(@menu_bck, -30%);
+@menu_hover_bck: darken(@color5, 10%);
+@menu_border_bck: darken(@menu_bck, 40%);
+@menu_color: @color3;
+
 //righe text
-@row_text_back: @color_0d;
-@row_text_hover_back: @color_0b;
-@row_text_color: @color_1x;
-@row_border_color: @color_0z;
-@row_num_select_back: @color_5x;
+@row_text_back: lighten(@color0,40%);
+@row_text_hover_back: lighten(@color0,20%);
+@row_text_color: darken(@color1,20%);
+@row_border_color: darken(@color0,40%);
+// @row_num_select_back: darken(@color4,20%);
+@row_num_select_back: darken(@color5,10%);
+
 //box cmd
-@cmd_back: @color_2b;
-@cmd_back2: @color_5y;
-@cmd_hover_back: @color_2a;
-@cmd_color: @color_0c;
-@cmd_border_color_l: @color_3x;
+@cmd_back: @color1;
+@cmd_back2: darken(@color5,10%);
+@cmd_hover_back: lighten(@color1,10%);
+@cmd_color: lighten(@color0,30%);
+@cmd_border_color_l: darken(@color3,10%);
+
 //head
-@head_first_back: @color_2a;
-@head_first_color: @color_0c;
-@head_back: @color_0x;
-@head_color: @color_1x;
-@head_border_color: @color_0z;
+@head_first_back: lighten(@color1,10%);
+@head_back: darken(@color0,10%);
+@head_color: darken(@color1,20%);
+@head_border_color: darken(@color0,40%);
+
 //rows
-@cell_border_color: @color_0z;
-@cell_back: @color_0b;
-@cell_color: @color_1x;
-@cell_first_back: @color_0x;
-@cell_hover_back: @color_2b;
-@cell_jshover_back: @color_2a;
-@cell_hover_color: @color_0c;
+@cell_border_color: darken(@color0,40%);
+@cell_back: lighten(@color0,20%);
+@cell_color: darken(@color1,20%);
+@cell_hover_back: lighten(@color1,20%);
+@cell_jshover_back: lighten(@color1,10%);
+@cell_hover_color: lighten(@color0,30%);
 @cell_jshover_color: @color3;
-@form_empty: @color_4x;
+@form_empty: darken(@color1,10%);
+
 // input
-@inp_back: @color_0a;
-@inp_color: @color_1x;
+@inp_back: lighten(@color0,10%);
+@inp_color: darken(@color1,20%);
 @inp_hover_back: @color3;
-@inp_hover_border_color: @color_1b;
+@inp_hover_border_color: lighten(@color1,20%);
 @inp_hover_color: @inp_color;
-@inp_active_back: @color_1a;
-@inp_err_back: @color_4y;
+@inp_active_back: lighten(@color1,10%);
+@inp_err_back: darken(@color1,20%);
+
 //option
-@opt_back: @color_0a;
-@opt_color: @color_1x;
-@opt_hover_back: @color_2a;
-@opt_hover_color: @color_0c;
-@opt_border_color:@color_1x;
+@opt_back: lighten(@color0,10%);
+@opt_color: darken(@color1,20%);
+@opt_hover_back: lighten(@color1,10%);
+@opt_hover_color: lighten(@color0,30%);
+@opt_border_color:darken(@color1,20%);
+
 //select
-@select_back: @color_0a;
-@select_color: @color_1x;
+@select_back: lighten(@color0,10%);
+@select_color: darken(@color1,20%);
+
 //context
-@cnt_row_back: @color_0b;
-@cnt_border_color: @color_1x;
+@cnt_row_back: lighten(@color0,20%);
+@cnt_border_color: darken(@color1,20%);
+
 //tokens selected
 @token_back: @color3;
-@token_color: @color_4y;
-@token_color2: @color_5x;
-@token_select_back: @color_1b;
+@token_color: darken(@color1,20%);
+@token_color2: darken(@color5,0%);
+@token_select_back: lighten(@color1,20%);
 @token_select_color: @color3;
+
+//scroll bar
+@scroll_bar1:darken(@color1,0%);
+@scroll_bar2:darken(@head_back, 0%);
