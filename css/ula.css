@@ -357,9 +357,6 @@ div.menu_bar {
   min-height: 25px !important;
   max-height: 25px !important;
 }
-div.menu_bar li:nth-child(odd) a {
-  background: #366a92;
-}
 div.menu_bar ul {
   display: flex;
   flex-direction: row;
@@ -368,6 +365,9 @@ div.menu_bar ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+div.menu_bar ul li:nth-child(odd) a {
+  background: #21415a;
 }
 div.menu_bar ul li {
   position: relative;
@@ -458,11 +458,11 @@ div.menu_bar ul li.h:hover ul.h {
   display: block !important;
 }
 div.menu_bar .title {
-  background: #822a02;
+  background: #0a740a !important;
   color: #ffffff;
 }
 div.menu_bar .title:hover {
-  background: #b53b02;
+  background: #054005 !important;
   color: #ffffff;
 }
 div.ula_option {
@@ -746,7 +746,7 @@ div.ula_option div.d:hover {
   background: #b1af66;
 }
 #lpmx_rows_id table tr.bl td.n {
-  background: #096f09;
+  background: #0d9e0d;
   animation: blinker 1s linear infinite !important;
 }
 #lpmx_rows_id table tr.empty td.f,
@@ -1031,7 +1031,7 @@ div.ula_option div.d:hover {
   margin: 0;
   padding: 5px 5px 0 5px;
   vertical-align: bottom;
-  background: #096f09;
+  background: #0d9e0d;
   font-size: 17px;
   font-family: arial, verdana, Helvetica, sans-serif;
   font-weight: bold;
@@ -1148,7 +1148,7 @@ div.ula_option div.d:hover {
   text-decoration: underline;
 }
 #lpmx_omogr_id {
-  border: 1px solid #096f09;
+  border: 1px solid #0d9e0d;
   position: relative;
   min-width: 700px;
   max-width: 700px;
@@ -1157,7 +1157,7 @@ div.ula_option div.d:hover {
   cursor: move;
   padding: 0;
   margin: 0;
-  background: #096f09;
+  background: #0d9e0d;
   color: white;
   text-align: center;
   font-size: 13px;

@@ -360,12 +360,6 @@ div.menu_bar {
   min-height: @menu_height !important;
   max-height: @menu_height !important;
 
-  li:nth-child(odd) {
-    a {
-      background: lighten(@menu_bck,10%);
-    }
-  }
-
   ul {
     display: flex;
     flex-direction: row;
@@ -374,6 +368,12 @@ div.menu_bar {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    li:nth-child(odd) {
+      a {
+        background: lighten(@menu_bck, -5%);
+      }
+    }
 
     li {
       position: relative;
@@ -487,12 +487,12 @@ div.menu_bar {
   }
 
   .title {
-    background: darken(@color4, 30%);
+    background:darken(@color5,9%) !important;
     color: darken(@color3, 0);
   }
 
   .title:hover {
-    background: darken(@color4, 20%);
+    background: darken(@color5, 20%) !important;
     color: darken(@color3, 0);
   }
 }
