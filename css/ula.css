@@ -357,6 +357,9 @@ div.menu_bar {
   min-height: 25px !important;
   max-height: 25px !important;
 }
+div.menu_bar li:nth-child(odd) a {
+  background: #366a92;
+}
 div.menu_bar ul {
   display: flex;
   flex-direction: row;
@@ -402,7 +405,7 @@ div.menu_bar ul li a.img img {
   width: 100%;
 }
 div.menu_bar ul li a:hover {
-  background: #096f09;
+  background: #1a3448;
   text-decoration: underline;
 }
 div.menu_bar ul li ul {

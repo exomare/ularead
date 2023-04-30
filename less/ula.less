@@ -270,8 +270,7 @@ div.help {
 
     hr {
       width: 300px;
-      //AAA
-      color: red;
+      color: @color_red;
     }
   }
 }
@@ -360,6 +359,12 @@ div.menu_bar {
   width: 100%;
   min-height: @menu_height !important;
   max-height: @menu_height !important;
+
+  li:nth-child(odd) {
+    a {
+      background: lighten(@menu_bck,10%);
+    }
+  }
 
   ul {
     display: flex;
@@ -482,15 +487,14 @@ div.menu_bar {
   }
 
   .title {
-    background:darken(@color4,30%);
-    color: darken(@color3,0);
+    background: darken(@color4, 30%);
+    color: darken(@color3, 0);
   }
 
   .title:hover {
-    background:darken(@color4,20%);
-    color: darken(@color3,0);
+    background: darken(@color4, 20%);
+    color: darken(@color3, 0);
   }
-
 }
 
 /////////////////
